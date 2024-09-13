@@ -2,6 +2,7 @@
 
 Welcome to my repository of rigorous, first-principle-driven investment research and sectoral analysis. This collection embodies a methodical approach to understanding and capitalizing on transformative opportunities across various high-impact industries. Here, you will find detailed, data-centric research and strategic insights into the following sectors:
 
+DeepTech: The investment thesis covers key DeepTech sectors including Synthetic Biology, Space Tech, Quantum Computing, Energy Storage, and Semiconductors.
 Agritech: Systematic exploration of technological advancements in agriculture, focusing on innovations that enhance productivity, sustainability, and food security.
 Climate Tech: Analytical deep dives into technologies and solutions addressing climate change, emphasizing scalable, impactful, and economically viable initiatives. Climate Tech tectonic shift is not just limited to feel-good, guilt-free pass rather than better, cheaper and scalable alternatives.
 Fintech: Comprehensive evaluation of financial technologies, with a focus on disruptive business models, regulatory landscapes, and future growth trajectories.
