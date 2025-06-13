@@ -14,7 +14,7 @@ Circle’s operations span multiple areas, including stablecoin issuance, paymen
 The balance sheet provides a snapshot of Circle’s financial position as of December 31, 2024. It highlights the company’s assets, liabilities, and shareholders’ equity.
 
 ![Screenshot 2025-06-13 at 23 06 39](https://github.com/user-attachments/assets/1b95aff7-dbeb-4c2f-ae6b-3588bdbb4639)
-
+*source Form S1*
 **Key Observations:**
 - **Assets**: Circle has significantly increased its cash and cash equivalents, reflecting its ability to manage liquidity effectively.
 - **Liabilities**: The company maintains a balanced mix of current and non-current liabilities, indicating prudent financial management.
