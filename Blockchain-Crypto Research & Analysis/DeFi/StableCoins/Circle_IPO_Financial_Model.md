@@ -109,8 +109,6 @@ Several factors position Circle for continued growth as it approaches its IPO:
    - Circle is expanding into high-growth markets like Asia and Latin America, where demand for digital payments and remittances is surging.
    - Example: USDC’s use in emerging markets for low-cost remittances is driving adoption.
 
-## Financials:
-
 
 ## Challenges and Risks
 Despite its strong position, Circle faces several challenges:
