@@ -24,7 +24,6 @@ The balance sheet provides a snapshot of Circle’s financial position as of Dec
 The income statement details Circle’s revenues, expenses, and net income over the fiscal years 2022–2024.
 
 ![Screenshot 2025-06-13 at 23 06 49](https://github.com/user-attachments/assets/0ab4fb6b-1d71-4b38-97e4-dd197dad9b2c)
-
 ![Screenshot 2025-06-13 at 23 07 17](https://github.com/user-attachments/assets/e2ccc27e-ff34-4d56-9bf8-4e2666cab166)
 
 
