@@ -36,6 +36,7 @@ The income statement details Circle’s revenues, expenses, and net income over 
 ### Cash Flow Statement
 The cash flow statement illustrates how changes in balance sheet accounts and income affect cash and cash equivalents.
 
+![Screenshot 2025-06-13 at 23 08 20](https://github.com/user-attachments/assets/406faa90-f519-4806-8dbd-e46063d6d8d6)
 
 
 **Key Observations:**
