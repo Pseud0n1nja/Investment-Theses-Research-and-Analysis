@@ -8,7 +8,40 @@ Founded in 2013, Circle is a Boston-based fintech company focused on enabling di
 
 Circle’s operations span multiple areas, including stablecoin issuance, payment solutions, and blockchain-based financial infrastructure. Its recent filing for an IPO with the U.S. Securities and Exchange Commission (SEC) signals a pivotal moment, as the company aims to capitalize on the growing adoption of digital currencies and blockchain technology.
 
-## Circle’s Financial Model
+## Financials:
+
+### Balance Sheet
+The balance sheet provides a snapshot of Circle’s financial position as of December 31, 2024. It highlights the company’s assets, liabilities, and shareholders’ equity.
+
+![Screenshot 2025-06-13 at 23 06 39](https://github.com/user-attachments/assets/1b95aff7-dbeb-4c2f-ae6b-3588bdbb4639)
+
+**Key Observations:**
+- **Assets**: Circle has significantly increased its cash and cash equivalents, reflecting its ability to manage liquidity effectively.
+- **Liabilities**: The company maintains a balanced mix of current and non-current liabilities, indicating prudent financial management.
+- **Shareholders’ Equity**: There is a notable increase in shareholders’ equity, driven by retained earnings and investment activities.
+
+### Income Statement
+The income statement details Circle’s revenues, expenses, and net income over the fiscal years 2022–2024.
+
+![Screenshot 2025-06-13 at 23 06 49](https://github.com/user-attachments/assets/0ab4fb6b-1d71-4b38-97e4-dd197dad9b2c)
+
+![Screenshot 2025-06-13 at 23 07 17](https://github.com/user-attachments/assets/e2ccc27e-ff34-4d56-9bf8-4e2666cab166)
+
+
+**Key Observations:**
+- **Revenue Growth**: Circle has experienced consistent revenue growth, driven by increasing transaction volumes and interest income.
+- **Operating Expenses**: While operating expenses have risen, they remain manageable relative to revenue growth.
+- **Net Income**: The company achieved positive net income in 2024, marking a significant milestone in its journey toward profitability.
+
+### Cash Flow Statement
+The cash flow statement illustrates how changes in balance sheet accounts and income affect cash and cash equivalents.
+
+
+
+**Key Observations:**
+- **Operating Activities**: Positive cash flows from operating activities indicate efficient management of working capital.
+- **Investing Activities**: Investments in long-term assets and strategic acquisitions show Circle’s commitment to growth.
+- **Financing Activities**: Proceeds from financing activities, such as stock issuances, have supported Circle’s expansion plans.
 
 ### Revenue Streams
 Circle’s financial model is built on diverse revenue sources, primarily tied to its role as a stablecoin issuer and financial infrastructure provider. The key revenue streams include:
@@ -74,6 +107,9 @@ Several factors position Circle for continued growth as it approaches its IPO:
 4. **Global Expansion**:
    - Circle is expanding into high-growth markets like Asia and Latin America, where demand for digital payments and remittances is surging.
    - Example: USDC’s use in emerging markets for low-cost remittances is driving adoption.
+
+## Financials:
+
 
 ## Challenges and Risks
 Despite its strong position, Circle faces several challenges:
