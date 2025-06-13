@@ -14,7 +14,8 @@ Circle’s operations span multiple areas, including stablecoin issuance, paymen
 The balance sheet provides a snapshot of Circle’s financial position as of December 31, 2024. It highlights the company’s assets, liabilities, and shareholders’ equity.
 
 ![Screenshot 2025-06-13 at 23 06 39](https://github.com/user-attachments/assets/1b95aff7-dbeb-4c2f-ae6b-3588bdbb4639)
-*source Form S1*
+*source: Form S1*
+
 **Key Observations:**
 - **Assets**: Circle has significantly increased its cash and cash equivalents, reflecting its ability to manage liquidity effectively.
 - **Liabilities**: The company maintains a balanced mix of current and non-current liabilities, indicating prudent financial management.
@@ -25,7 +26,7 @@ The income statement details Circle’s revenues, expenses, and net income over 
 
 ![Screenshot 2025-06-13 at 23 06 49](https://github.com/user-attachments/assets/0ab4fb6b-1d71-4b38-97e4-dd197dad9b2c)
 ![Screenshot 2025-06-13 at 23 07 17](https://github.com/user-attachments/assets/e2ccc27e-ff34-4d56-9bf8-4e2666cab166)
-
+*source: Form S1*
 
 **Key Observations:**
 - **Revenue Growth**: Circle has experienced consistent revenue growth, driven by increasing transaction volumes and interest income.
@@ -37,7 +38,7 @@ The cash flow statement illustrates how changes in balance sheet accounts and in
 
 ![Screenshot 2025-06-13 at 23 08 20](https://github.com/user-attachments/assets/406faa90-f519-4806-8dbd-e46063d6d8d6)
 ![Screenshot 2025-06-13 at 23 08 40](https://github.com/user-attachments/assets/627d4a80-a8b2-4ffb-a391-f0bebbfb8cee)
-
+*source: Form S1*
 
 **Key Observations:**
 - **Operating Activities**: Positive cash flows from operating activities indicate efficient management of working capital.
