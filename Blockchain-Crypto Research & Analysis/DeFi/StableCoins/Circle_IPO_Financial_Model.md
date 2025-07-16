@@ -13,7 +13,8 @@ Circle’s operations span multiple areas, including stablecoin issuance, paymen
 ### Balance Sheet
 The balance sheet provides a snapshot of Circle’s financial position as of December 31, 2024. It highlights the company’s assets, liabilities, and shareholders’ equity.
 
-![Screenshot 2025-06-13 at 23 06 39](https://github.com/user-attachments/assets/1b95aff7-dbeb-4c2f-ae6b-3588bdbb4639)
+![Screenshot 2025-06-13 at 23 06 49](https://github.com/user-attachments/assets/0ab4fb6b-1d71-4b38-97e4-dd197dad9b2c)
+
 *source: Form S1*
 
 **Key Observations:**
@@ -24,9 +25,55 @@ The balance sheet provides a snapshot of Circle’s financial position as of Dec
 ### Income Statement
 The income statement details Circle’s revenues, expenses, and net income over the fiscal years 2022–2024.
 
-![Screenshot 2025-06-13 at 23 06 49](https://github.com/user-attachments/assets/0ab4fb6b-1d71-4b38-97e4-dd197dad9b2c)
+![Screenshot 2025-06-13 at 23 06 39](https://github.com/user-attachments/assets/1b95aff7-dbeb-4c2f-ae6b-3588bdbb4639)
 ![Screenshot 2025-06-13 at 23 07 17](https://github.com/user-attachments/assets/e2ccc27e-ff34-4d56-9bf8-4e2666cab166)
 *source: Form S1*
+
+
+### Revenue Streams
+
+Circle’s revenues are highly diversified, mirroring established Web2 fintechs but leveraging the unique economics of blockchain.
+
+#### 1. Transaction Fees from USDC
+
+- **Mechanism:** Circle earns fees on every USDC transaction, much like Visa’s interchange or PayPal’s take rate.
+- **Example:** Businesses using USDC for cross-border payments, DeFi protocols integrating USDC, and consumer remittances all generate transaction-based revenues.
+- **Financial Math:**  
+  - USDC monthly transaction volume (Jan 2025): ≈$200B ([Circle Transparency, 2025](https://www.circle.com/en/transparency))
+  - Annualized: $2.4T.  
+  - Assuming a conservative blended fee of 0.05% (lower than PayPal’s 2.2% take rate, but competitive in DeFi), Circle’s revenue:  
+    $2.4T × 0.0005 = **$1.2B/year**.
+- **Web2 Comparison:**  
+  - PayPal FY2023 transaction revenue: $26.8B on $1.5T volume ([PayPal 10-K, 2023](https://investor.paypal-corp.com/financials/sec-filings/default.aspx)).
+
+#### 2. Interest Income from USDC Reserves
+
+- **Mechanism:** USDC is fully backed by cash and U.S. Treasuries. Circle earns interest on these reserves, akin to banks’ “float” income.
+- **Example:** As of Q1 2025, USDC reserves averaged $45B, with the majority in T-bills yielding ~4.5% ([Circle Reserve Reports, 2025](https://www.circle.com/en/transparency)).
+- **Financial Math:**  
+  - $45B × 4.5% = **$2.025B/year** in gross interest.
+  - Net income is lower after sharing with partners (e.g., BlackRock) and covering operational risk buffers.
+- **Web2 Comparison:**  
+  - PayPal earned $882M interest on customer balances in 2023 ([PayPal 10-K, 2023](https://investor.paypal-corp.com/financials/sec-filings/default.aspx)).
+
+#### 3. Enterprise Solutions & APIs
+
+- **Mechanism:** Circle offers APIs for payments, payouts, and on-chain integration, charging SaaS-like fees or per-transaction rates.
+- **Example:** Stripe, Shopify, and fintechs use Circle’s APIs to embed USDC payments.
+- **Financial Math:**  
+  - Estimated revenue: If 10,000 enterprise clients pay $500/month, annual recurring revenue = $60M.
+- **Web2 Comparison:**  
+  - Stripe’s API revenue exceeded $7.4B in 2023 ([The Information, 2024](https://www.theinformation.com/articles/stripe-revenue-growth-slows-in-2023)).
+
+#### 4. Treasury & Custody Services
+
+- **Mechanism:** Circle provides institutional-grade custody and treasury management for digital assets, charging AUM-based fees.
+- **Example:** Crypto hedge funds and corporates parking USDC with Circle.
+- **Financial Math:**  
+  - If $10B AUM at 0.2% fee: $20M annually.
+- **Web2 Comparison:**  
+  - Coinbase Custody generated ~$200M in 2023 ([Coinbase 10-K, 2023](https://s27.q4cdn.com/397450999/files/doc_financials/2023/q4/COIN-10K-2023.pdf)).
+
 
 **Key Observations:**
 - **Revenue Growth**: Circle has experienced consistent revenue growth, driven by increasing transaction volumes and interest income.
