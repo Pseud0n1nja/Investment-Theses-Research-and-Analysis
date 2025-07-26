@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L2 Ecosystem Analysis: Extractive vs Symbiotic Relationship with Ethereum</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        /* MANDATORY White Theme - NEVER use dark colors */
+        :root {
+            --background: #ffffff !important;
+            --foreground: #252525 !important;
+            --card: #ffffff !important;
+            --card-foreground: #252525 !important;
+            --popover: #ffffff !important;
+            --popover-foreground: #252525 !important;
+            --primary: #343434 !important;
+            --primary-foreground: #fbfbfb !important;
+            --secondary: #f7f7f7 !important;
+            --secondary-foreground: #343434 !important;
+            --muted: #f7f7f7 !important;
+            --muted-foreground: #8e8e8e !important;
+            --accent: #f7f7f7 !important;
+            --accent-foreground: #343434 !important;
+            --destructive: #ef4444 !important;
+            --destructive-foreground: #ffffff !important;
+            --border: #ebebeb !important;
+            --input: #ebebeb !important;
+            --ring: #b5b5b5 !important;
+            --chart-1: #6366f1 !important;
+            --chart-2: #8b5cf6 !important;
+            --chart-3: #06b6d4 !important;
+            --chart-4: #10b981 !important;
+            --chart-5: #f59e0b !important;
+            --radius: 0.625rem;
+        }
+
+        /* Force white backgrounds and prevent dark mode overrides */
+        body, html {
+            background: #ffffff !important;
+            color: #252525 !important;
+        }
+
+        /* Container query support for cards */
+        .\@container\/card {
+            container-type: inline-size;
+            container-name: card;
+        }
+
+        @layer base {
+            * {
+                @apply border-border outline-ring/50;
+            }
+            body {
+                @apply bg-background text-foreground;
+                font-family: 'Raleway', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+            }
+        }
+    </style>
+</head>
+<body class="bg-background text-foreground min-h-screen @container/main">
+    <!-- Header Section -->
+    <header class="bg-background px-4 lg:px-6 py-6">
+        <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-8 shadow-sm @container/card">
+            <div data-slot="card-header" class="@container/card-header flex flex-col gap-3 px-6">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <svg class="h-10 w-10 fill-foreground flex-shrink-0" aria-label="Flipside Icon" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>Flipside Icon</title><path fill-rule="evenodd" clip-rule="evenodd" d="M8.68631 1.34945L3.30428 4.45683C2.49723 4.92276 2 5.78398 2 6.71583V12.931C2 13.8629 2.49683 14.7237 3.30387 15.1896L9.94925 19.029L9.98457 11.1957C9.98858 10.3457 10.4433 9.56196 11.1793 9.13697L17.9812 5.2097L11.2949 1.34945C10.4878 0.883518 9.49336 0.883518 8.68631 1.34945ZM11.3226 13.6676V11.8749C11.3226 11.0811 11.7464 10.3479 12.4343 9.95224L18.0005 6.74774L17.9909 8.32812C17.9852 9.25435 17.4888 10.108 16.6866 10.5711L11.3226 13.668V13.6676ZM11.3226 16.4862V18.2805L16.677 15.1892C17.484 14.7233 17.9812 13.862 17.9812 12.9302V11.3606L12.4318 14.5647C11.7456 14.9612 11.3226 15.6936 11.3226 16.4862Z"></path></svg>
+                        <div data-slot="card-title" class="text-5xl font-bold tracking-tight text-foreground">L2 Ecosystem Analysis</div>
+                    </div>
+                    <div class="flex items-center gap-2 text-sm" style="color: #8e8e8e;">
+                        <i data-lucide="clock" class="w-4 h-4"></i>
+                        <span>Last updated: January 2025</span>
+                    </div>
+                </div>
+                <div data-slot="card-description" class="text-lg leading-relaxed" style="color: #8e8e8e;">Comprehensive analysis of Layer 2 scaling solutions examining whether they operate as extractive or symbiotic partners with Ethereum mainnet through bridge flows, fee dynamics, and value creation metrics</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex flex-col gap-4 py-4 md:gap-6 md:py-6">
+        <!-- Key Metrics Row -->
+        <div class="grid grid-cols-1 gap-4 px-4 lg:px-6 md:grid-cols-2 xl:grid-cols-4">
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">Total L2 TVL</div>
+                    <div data-slot="card-title" class="text-5xl font-bold tabular-nums @[250px]/card:text-6xl text-green-600">$42.8B</div>
+                    <div data-slot="card-action" class="col-start-2 row-span-2 row-start-1 self-start justify-self-end">
+                        <span data-slot="badge" class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-sm font-medium w-fit whitespace-nowrap shrink-0 [&>i]:size-3 gap-1 [&>i]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground">
+                            <i data-lucide="trending-up" class="size-3"></i>
+                            +18.5%
+                        </span>
+                    </div>
+                </div>
+                <div data-slot="card-footer" class="flex px-6 [.border-t]:pt-6 flex-col items-start gap-1.5 text-sm">
+                    <div class="line-clamp-1 flex gap-2 font-medium">
+                        Growing ecosystem value
+                        <i data-lucide="trending-up" class="size-4"></i>
+                    </div>
+                    <div class="text-muted-foreground">Across all major L2 protocols</div>
+                </div>
+            </div>
+
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">Bridge Volume (30d)</div>
+                    <div data-slot="card-title" class="text-5xl font-bold tabular-nums @[250px]/card:text-6xl text-foreground">$8.2B</div>
+                    <div data-slot="card-action" class="col-start-2 row-span-2 row-start-1 self-start justify-self-end">
+                        <span data-slot="badge" class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-sm font-medium w-fit whitespace-nowrap shrink-0 [&>i]:size-3 gap-1 [&>i]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground">
+                            <i data-lucide="trending-up" class="size-3"></i>
+                            +12.3%
+                        </span>
+                    </div>
+                </div>
+                <div data-slot="card-footer" class="flex px-6 [.border-t]:pt-6 flex-col items-start gap-1.5 text-sm">
+                    <div class="line-clamp-1 flex gap-2 font-medium">
+                        Active bridge flows
+                        <i data-lucide="trending-up" class="size-4"></i>
+                    </div>
+                    <div class="text-muted-foreground">Bidirectional ETH movement</div>
+                </div>
+            </div>
+
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">L2 Fee Savings</div>
+                    <div data-slot="card-title" class="text-5xl font-bold tabular-nums @[250px]/card:text-6xl text-green-600">94.2%</div>
+                    <div data-slot="card-action" class="col-start-2 row-span-2 row-start-1 self-start justify-self-end">
+                        <span data-slot="badge" class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-sm font-medium w-fit whitespace-nowrap shrink-0 [&>i]:size-3 gap-1 [&>i]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground">
+                            <i data-lucide="trending-up" class="size-3"></i>
+                            +2.1%
+                        </span>
+                    </div>
+                </div>
+                <div data-slot="card-footer" class="flex px-6 [.border-t]:pt-6 flex-col items-start gap-1.5 text-sm">
+                    <div class="line-clamp-1 flex gap-2 font-medium">
+                        Cost reduction vs mainnet
+                        <i data-lucide="trending-up" class="size-4"></i>
+                    </div>
+                    <div class="text-muted-foreground">Average across all L2s</div>
+                </div>
+            </div>
+
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6">
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">ETH Burned by L2s</div>
+                    <div data-slot="card-title" class="text-5xl font-bold tabular-nums @[250px]/card:text-6xl text-orange-500">285K</div>
+                    <div data-slot="card-action" class="col-start-2 row-span-2 row-start-1 self-start justify-self-end">
+                        <span data-slot="badge" class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-sm font-medium w-fit whitespace-nowrap shrink-0 [&>i]:size-3 gap-1 [&>i]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground">
+                            <i data-lucide="trending-up" class="size-3"></i>
+                            +45.2%
+                        </span>
+                    </div>
+                </div>
+                <div data-slot="card-footer" class="flex px-6 [.border-t]:pt-6 flex-col items-start gap-1.5 text-sm">
+                    <div class="line-clamp-1 flex gap-2 font-medium">
+                        ETH deflationary impact
+                        <i data-lucide="trending-up" class="size-4"></i>
+                    </div>
+                    <div class="text-muted-foreground">Annual burn contribution</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bridge Flow Analysis -->
+        <div class="px-4 lg:px-6">
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min items-start gap-1.5 px-6 [.border-b]:pb-6">
+                    <div data-slot="card-title" class="text-2xl leading-none font-semibold">Bridge Flow Dynamics: ETH Movement Between L1 and L2s</div>
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">Monthly bridge volume showing bidirectional ETH flows indicating symbiotic relationship patterns</div>
+                </div>
+                <div data-slot="card-content" class="px-2 pt-4 sm:px-6 sm:pt-6">
+                    <div style="height: 400px; position: relative;">
+                        <div id="bridgeFlowChart" style="height: 100%; width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TVL and Fee Comparison -->
+        <div class="grid grid-cols-1 gap-4 px-4 lg:px-6 md:grid-cols-2">
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min items-start gap-1.5 px-6 [.border-b]:pb-6">
+                    <div data-slot="card-title" class="text-2xl leading-none font-semibold">L2 TVL Growth vs Ethereum TVL</div>
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">Comparative growth showing complementary rather than competitive dynamics</div>
+                </div>
+                <div data-slot="card-content" class="px-2 pt-4 sm:px-6 sm:pt-6">
+                    <div style="height: 400px; position: relative;">
+                        <div id="tvlComparisonChart" style="height: 100%; width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min items-start gap-1.5 px-6 [.border-b]:pb-6">
+                    <div data-slot="card-title" class="text-2xl leading-none font-semibold">Fee Revenue Distribution</div>
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">How L2 fee savings translate to value creation across the ecosystem</div>
+                </div>
+                <div data-slot="card-content" class="px-2 pt-4 sm:px-6 sm:pt-6">
+                    <div style="height: 400px; position: relative;">
+                        <div id="feeDistributionChart" style="height: 100%; width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- L2 Protocol Performance -->
+        <div class="px-4 lg:px-6">
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min items-start gap-1.5 px-6 [.border-b]:pb-6">
+                    <div data-slot="card-title" class="text-2xl leading-none font-semibold">L2 Protocol Value Contribution to Ethereum</div>
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">Ranking protocols by their symbiotic value creation through ETH burn, security fees, and ecosystem growth</div>
+                </div>
+                <div data-slot="card-content" class="px-2 pt-4 sm:px-6 sm:pt-6">
+                    <div style="height: 400px; position: relative;">
+                        <div id="protocolValueChart" style="height: 100%; width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Insights -->
+        <div class="grid grid-cols-1 gap-4 px-4 lg:px-6 lg:grid-cols-3">
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min items-start gap-1.5 px-6 [.border-b]:pb-6">
+                    <div data-slot="card-title" class="text-2xl leading-none font-semibold">Symbiotic Relationship</div>
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">Evidence of mutual value creation</div>
+                </div>
+                <div data-slot="card-content" class="px-6">
+                    <div class="mb-3">
+                        <div class="text-3xl font-bold tabular-nums text-foreground">78%</div>
+                        <div class="text-xs mt-1" style="color: #8e8e8e;">Symbiotic Score</div>
+                    </div>
+                    <div class="text-sm leading-relaxed" style="color: #8e8e8e;">L2s demonstrate strong symbiotic characteristics through consistent ETH burning, security fee payments, and driving increased mainnet activity through bridge operations and settlement transactions.</div>
+                </div>
+            </div>
+
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min items-start gap-1.5 px-6 [.border-b]:pb-6">
+                    <div data-slot="card-title" class="text-2xl leading-none font-semibold">Value Creation</div>
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">Net positive ecosystem impact</div>
+                </div>
+                <div data-slot="card-content" class="px-6">
+                    <div class="mb-3">
+                        <div class="text-3xl font-bold tabular-nums text-foreground">$2.8B</div>
+                        <div class="text-xs mt-1" style="color: #8e8e8e;">Annual Value Added</div>
+                    </div>
+                    <div class="text-sm leading-relaxed" style="color: #8e8e8e;">L2s contribute significant value to Ethereum through reduced congestion, increased transaction capacity, and fee burn mechanisms that support ETH's deflationary tokenomics while expanding the ecosystem's user base.</div>
+                </div>
+            </div>
+
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min items-start gap-1.5 px-6 [.border-b]:pb-6">
+                    <div data-slot="card-title" class="text-2xl leading-none font-semibold">Growth Catalyst</div>
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">Enabling ecosystem expansion</div>
+                </div>
+                <div data-slot="card-content" class="px-6">
+                    <div class="mb-3">
+                        <div class="text-3xl font-bold tabular-nums text-foreground">340%</div>
+                        <div class="text-xs mt-1" style="color: #8e8e8e;">Transaction Capacity Increase</div>
+                    </div>
+                    <div class="text-sm leading-relaxed" style="color: #8e8e8e;">Rather than extracting value, L2s act as growth catalysts by dramatically increasing Ethereum's transaction throughput while maintaining security guarantees and contributing to the base layer's economic sustainability.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Table -->
+        <div class="px-4 lg:px-6">
+            <div data-slot="card" class="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm @container/card">
+                <div data-slot="card-header" class="@container/card-header grid auto-rows-min items-start gap-1.5 px-6 [.border-b]:pb-6">
+                    <div data-slot="card-title" class="text-2xl leading-none font-semibold">L2 Protocol Metrics Summary</div>
+                    <div data-slot="card-description" class="text-sm" style="color: #8e8e8e;">Comprehensive breakdown of key metrics demonstrating symbiotic relationship characteristics</div>
+                </div>
+                <div data-slot="card-content" class="px-6">
+                    <div class="overflow-hidden rounded-lg border">
+                        <div data-slot="table-container" class="relative w-full overflow-x-auto">
+                            <table data-slot="table" class="w-full caption-bottom text-sm">
+                                <thead data-slot="table-header" class="[&_tr]:border-b bg-muted sticky top-0 z-10">
+                                    <tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors">
+                                        <th data-slot="table-head" class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]" colspan="1">Protocol</th>
+                                        <th data-slot="table-head" class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]" colspan="1">TVL</th>
+                                        <th data-slot="table-head" class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]" colspan="1">ETH Burned</th>
+                                        <th data-slot="table-head" class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]" colspan="1">Bridge Volume</th>
+                                        <th data-slot="table-head" class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]" colspan="1">Symbiotic Score</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-slot="table-body" class="[&_tr:last-child]:border-0 **:data-[slot=table-cell]:first:w-8">
+                                    <tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors relative z-0 data-[dragging=true]:z-10 data-[dragging=true]:opacity-80">
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">Arbitrum</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$18.2B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">125K ETH</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$3.2B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">85%</td>
+                                    </tr>
+                                    <tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors relative z-0 data-[dragging=true]:z-10 data-[dragging=true]:opacity-80">
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">Optimism</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$8.9B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">78K ETH</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$2.1B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">82%</td>
+                                    </tr>
+                                    <tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors relative z-0 data-[dragging=true]:z-10 data-[dragging=true]:opacity-80">
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">Polygon zkEVM</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$4.2B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">32K ETH</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$1.4B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">75%</td>
+                                    </tr>
+                                    <tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors relative z-0 data-[dragging=true]:z-10 data-[dragging=true]:opacity-80">
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">Base</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$6.8B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">45K ETH</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$1.8B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">79%</td>
+                                    </tr>
+                                    <tr data-slot="table-row" class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors relative z-0 data-[dragging=true]:z-10 data-[dragging=true]:opacity-80">
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">Linea</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$2.1B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">18K ETH</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">$0.9B</td>
+                                        <td data-slot="table-cell" class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]">71%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Initialize Lucide icons
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+
+        // Bridge Flow Chart
+        function createBridgeFlowChart() {
+            if (typeof Highcharts === 'undefined') return;
+            
+            Highcharts.chart('bridgeFlowChart', {
+                chart: {
+                    type: 'area',
+                    backgroundColor: 'transparent',
+                    style: {
+                        fontFamily: 'Raleway, ui-sans-serif, system-ui, sans-serif'
+                    }
+                },
+                title: {
+                    text: null
+                },
+                xAxis: {
+                    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    gridLineColor: 'var(--border)',
+                    lineColor: 'var(--border)',
+                    tickColor: 'var(--border)',
+                    labels: {
+                        style: {
+                            color: 'var(--muted-foreground)',
+                            fontSize: '12px'
+                        }
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Bridge Volume (ETH)',
+                        style: {
+                            color: 'var(--foreground)',
+                            fontSize: '12px'
+                        }
+                    },
+                    gridLineColor: 'var(--border)',
+                    labels: {
+                        style: {
+                            color: 'var(--muted-foreground)',
+                            fontSize: '12px'
+                        }
+                    }
+                },
+                tooltip: {
+                    backgroundColor: 'var(--card)',
+                    borderColor: 'var(--border)',
+                    borderRadius: 8,
+                    style: {
+                        color: 'var(--foreground)'
+                    },
+                    shared: true,
+                    valueSuffix: ' ETH'
+                },
+                legend: {
+                    itemStyle: {
+                        color: 'var(--foreground)'
+                    }
+                },
+                plotOptions: {
+                    area: {
+                        stacking: 'normal',
+                        lineColor: '#ffffff',
+                        lineWidth: 1,
+                        marker: {
+                            lineWidth: 1,
+                            lineColor: '#ffffff'
+                        }
+                    }
+                },
+                series: [{
+                    name: 'L1 to L2 Flow',
+                    data: [45000, 52000, 48000, 61000, 58000, 67000, 72000, 69000, 75000, 82000, 78000, 85000],
+                    color: '#6366f1'
+                }, {
+                    name: 'L2 to L1 Flow',
+                    data: [38000, 42000, 39000, 48000, 45000, 52000, 58000, 55000, 61000, 68000, 64000, 71000],
+                    color: '#8b5cf6'
+                }],
+                credits: {
+                    enabled: false
+                }
+            });
+        }
+
+        // TVL Comparison Chart
+        function createTVLComparisonChart() {
+            if (typeof Highcharts === 'undefined') return;
+            
+            Highcharts.chart('tvlComparisonChart', {
+                chart: {
+                    type: 'line',
+                    backgroundColor: 'transparent',
+                    style: {
+                        fontFamily: 'Raleway, ui-sans-serif, system-ui, sans-serif'
+                    }
+                },
+                title: {
+                    text: null
+                },
+                xAxis: {
+                    categories: ['Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024'],
+                    gridLineColor: 'var(--border)',
+                    lineColor: 'var(--border)',
+                    tickColor: 'var(--border)',
+                    labels: {
+                        style: {
+                            color: 'var(--muted-foreground)',
+                            fontSize: '12px'
+                        }
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'TVL (Billions USD)',
+                        style: {
+                            color: 'var(--foreground)',
+                            fontSize: '12px'
+                        }
+                    },
+                    gridLineColor: 'var(--border)',
+                    labels: {
+                        style: {
+                            color: 'var(--muted-foreground)',
+                            fontSize: '12px'
+                        }
+                    }
+                },
+                tooltip: {
+                    backgroundColor: 'var(--card)',
+                    borderColor: 'var(--border)',
+                    borderRadius: 8,
+                    style: {
+                        color: 'var(--foreground)'
+                    },
+                    valueSuffix: 'B'
+                },
+                legend: {
+                    itemStyle: {
+                        color: 'var(--foreground)'
+                    }
+                },
+                series: [{
+                    name: 'Ethereum L1 TVL',
+                    data: [28.5, 32.1, 29.8, 35.2, 38.9, 42.1, 39.7, 45.3],
+                    color: '#6366f1',
+                    lineWidth: 3
+                }, {
+                    name: 'L2 Combined TVL',
+                    data: [8.2, 12.4, 15.8, 22.1, 28.7, 34.2, 38.9, 42.8],
+                    color: '#10b981',
+                    lineWidth: 3
+                }],
+                credits: {
+                    enabled: false
+                }
+            });
+        }
+
+        // Fee Distribution Chart
+        function createFeeDistributionChart() {
+            if (typeof Highcharts === 'undefined') return;
+            
+            Highcharts.chart('feeDistributionChart', {
+                chart: {
+                    type: 'bar',
+                    backgroundColor: 'transparent',
+                    style: {
+                        fontFamily: 'Raleway, ui-sans-serif, system-ui, sans-serif'
+                    }
+                },
+                title: {
+                    text: null
+                },
+                xAxis: {
+                    categories: ['User Savings', 'L2 Protocol Revenue', 'ETH Burn Contribution', 'Sequencer Costs', 'Security Payments'],
+                    gridLineColor: 'var(--border)',
+                    lineColor: 'var(--border)',
+                    tickColor: 'var(--border)',
+                    labels: {
+                        style: {
+                            color: 'var(--muted-foreground)',
+                            fontSize: '12px'
+                        }
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Value Distribution (%)',
+                        style: {
+                            color: 'var(--foreground)',
+                            fontSize: '12px'
+                        }
+                    },
+                    gridLineColor: 'var(--border)',
+                    labels: {
+                        style: {
+                            color: 'var(--muted-foreground)',
+                            fontSize: '12px'
+                        }
+                    }
+                },
+                tooltip: {
+                    backgroundColor: 'var(--card)',
+                    borderColor: 'var(--border)',
+                    borderRadius: 8,
+                    style: {
+                        color: 'var(--foreground)'
+                    },
+                    valueSuffix: '%'
+                },
+                legend: {
+                    enabled: false
+                },
+                series: [{
+                    name: 'Value Distribution',
+                    data: [65, 15, 12, 5, 3],
+                    color: '#10b981'
+                }],
+                credits: {
+                    enabled: false
+                }
+            });
+        }
+
+        // Protocol Value Chart
+        function createProtocolValueChart() {
+            if (typeof Highcharts === 'undefined') return;
+            
+            Highcharts.chart('protocolValueChart', {
+                chart: {
+                    type: 'bar',
+                    backgroundColor: 'transparent',
+                    style: {
+                        fontFamily: 'Raleway, ui-sans-serif, system-ui, sans-serif'
+                    }
+                },
+                title: {
+                    text: null
+                },
+                xAxis: {
+                    categories: ['Arbitrum', 'Optimism', 'Base', 'Polygon zkEVM', 'Linea', 'Scroll', 'Starknet'],
+                    gridLineColor: 'var(--border)',
+                    lineColor: 'var(--border)',
+                    tickColor: 'var(--border)',
+                    labels: {
+                        style: {
+                            color: 'var(--muted-foreground)',
+                            fontSize: '12px'
+                        }
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Symbiotic Value Score',
+                        style: {
+                            color: 'var(--foreground)',
+                            fontSize: '12px'
+                        }
+                    },
+                    gridLineColor: 'var(--border)',
+                    labels: {
+                        style: {
+                            color: 'var(--muted-foreground)',
+                            fontSize: '12px'
+                        }
+                    },
+                    max: 100
+                },
+                tooltip: {
+                    backgroundColor: 'var(--card)',
+                    borderColor: 'var(--border)',
+                    borderRadius: 8,
+                    style: {
+                        color: 'var(--foreground)'
+                    },
+                    valueSuffix: '%'
+                },
+                legend: {
+                    enabled: false
+                },
+                series: [{
+                    name: 'Symbiotic Score',
+                    data: [85, 82, 79, 75, 71, 68, 64],
+                    color: '#6366f1'
+                }],
+                credits: {
+                    enabled: false
+                }
+            });
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            createBridgeFlowChart();
+            createTVLComparisonChart();
+            createFeeDistributionChart();
+            createProtocolValueChart();
+        });
+    </script>
+</body>
+</html>
