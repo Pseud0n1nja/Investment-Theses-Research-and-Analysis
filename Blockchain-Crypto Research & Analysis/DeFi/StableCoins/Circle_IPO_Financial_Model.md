@@ -29,11 +29,11 @@ Circle’s operations span multiple areas, including stablecoin issuance, paymen
 
 This write up focuses on three things:
 
-Economic engine clarity: map Circle’s revenue and costs to the S-1 business description and financial line-items to avoid incorrect proxies (e.g., assuming a stable take-rate on notional transaction volume).
+ - Economic engine clarity: map Circle’s revenue and costs to the S-1 business description and financial line-items to avoid incorrect proxies (e.g., assuming a stable take-rate on notional transaction volume).
 
-Sensitivity-based underwriting: quantify how changes in (a) average USDC supply, (b) reserve yield environment, and (c) distribution cost intensity translate into earnings power.
+ - Sensitivity-based underwriting: quantify how changes in (a) average USDC supply, (b) reserve yield environment, and (c) distribution cost intensity translate into earnings power.
 
-Durability assessment: evaluate regulatory pathway, competitive dynamics, and concentration/distribution dependency to judge whether earnings quality improves or deteriorates as the market matures.
+ - Durability assessment: evaluate regulatory pathway, competitive dynamics, and concentration/distribution dependency to judge whether earnings quality improves or deteriorates as the market matures.
 
 **Web2 Analogy:**  
 Circle’s business model is reminiscent of PayPal’s in the early 2000s, when PayPal built the rails for digital payments and merchant APIs. The difference: Circle’s rails are on blockchain, enabling programmability and global, near-instant settlement.
@@ -43,7 +43,6 @@ Circle’s business model is reminiscent of PayPal’s in the early 2000s, when 
 - 2018: Launch of USDC in partnership with Coinbase.
 - 2020-2024: Expansion into APIs, programmable wallets, and institutional custody.
 - 2025: Files S-1 for IPO with the U.S. SEC ([SEC EDGAR, 2025](https://www.sec.gov/edgar/browse/?CIK=0001474098)).
-- 
 
 ## Financials:
 
