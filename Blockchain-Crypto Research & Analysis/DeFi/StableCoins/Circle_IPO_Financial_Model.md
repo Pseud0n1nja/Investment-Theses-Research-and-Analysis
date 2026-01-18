@@ -1,7 +1,24 @@
 # Circle IPO: A Quick Breakdown of Its Financial
 
+| Item                                      | Detail                                                                                                                                                                  |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Issuer                                    | Circle Internet Group, Inc.                                                                                                                                             |
+| Exchange / Ticker                         | New York Stock Exchange (“NYSE”) / CRCL                                                                                                                                 |
+| Security                                  | Class A common stock                                                                                                                                                    |
+| Expected IPO range                        | $24.00 – $26.00 per Class A share                                                                                                                                       |
+| Base deal size (shares)                   | 24.0 million total shares: 9.6m primary (issued by Circle) + 14.4m secondary (selling stockholders)                                                                     |
+| Greenshoe / overallotment                 | Up to 3.6m additional primary shares (30-day option to cover over-allotments)                                                                                           |
+| Use of proceeds (Circle)                  | General corporate purposes; note: IPO-triggered equity vesting can create cash tax withholding/remittance obligations (company provides an estimate in the prospectus). |
+| Gross proceeds to Circle (base deal)      | $230.4m – $249.6m (9.6m × $24–$26)                                                                                                                                      |
+| Net proceeds to Circle (company estimate) | ~$213.2m at $25 midpoint; ~$298.0m if greenshoe exercised in full                                                                                                       |
+| Secondary sell-down (gross, base deal)    | $345.6m – $374.4m (14.4m × $24–$26) — Circle receives $0 from these shares                                                                                              |
+| Shares outstanding (undiluted)            | Pre-money: ~207.740m (existing stockholders) | Post-money: ~217.340m (adds 9.6m new shares)                                                                             |
+| Implied equity value (undiluted)          | Pre-money: ~$5.0–$5.4bn | Post-money: ~$5.2–$5.7bn (range × share counts)                                                                                               |
+
+
 ## Introduction
 Circle Internet Financial, a leading player in the digital finance space, is preparing for an initial public offering (IPO) as of February 6, 2025.As stablecoins and digital assets gain institutional and mainstream traction, Circle's impending IPO is frequently compared to pivotal moments in fintech history—such as PayPal’s 2002 IPO and Square’s 2015 debut. Known for issuing USD Coin (USDC), one of the world’s largest stablecoins, Circle operates at the intersection of blockchain technology and financial services. This article explores Circle’s financial model, dissecting its revenue streams, cost structure, growth drivers, and challenges as it navigates the path to going public.
+
 
 ## Company Overview
 Founded in 2013, Circle is a Boston-based fintech company focused on enabling digital payments and financial infrastructure through blockchain technology. Its flagship product, USDC ([Circle, 2024](https://www.circle.com/en/about)), is a stablecoin pegged to the U.S. dollar, designed to facilitate seamless, low-cost transactions across global markets. Circle’s broader mission is to create an open financial system, leveraging blockchain to enhance efficiency, transparency, and accessibility in financial services.
