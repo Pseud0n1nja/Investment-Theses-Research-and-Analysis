@@ -44,6 +44,44 @@ Circle’s business model is reminiscent of PayPal’s in the early 2000s, when 
 - 2020-2024: Expansion into APIs, programmable wallets, and institutional custody.
 - 2025: Files S-1 for IPO with the U.S. SEC ([SEC EDGAR, 2025](https://www.sec.gov/edgar/browse/?CIK=0001474098)).
 
+- ## 3. Network Effects and Flywheels
+
+ ### **3.1 Two-Sided Network (Liquidity Loop)**
+ 
+ ```
+                     ┌─────────────────┐
+                     │   More USDC     │
+                     │    Holders      │
+                     └────────┬────────┘
+                              │
+                              ▼
+               ┌──────────────────────────────┐
+               │  Attracts More Merchants     │
+               │  & DeFi Integrations         │
+               └──────────────┬───────────────┘
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │  Lifts On-Chain │
+                     │  Velocity       │
+                     └────────┬────────┘
+                              │
+                              ▼
+               ┌──────────────────────────────┐
+               │  Increases Reserve Float     │
+               │  (More Income for Circle)    │
+               └──────────────┬───────────────┘
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │  Reinforces     │
+                     │  USDC Trust     │
+                     └─────────────────┘
+                              │
+                              └──────────────────────┐
+                                                     ▼
+                                            [LOOP CONTINUES]
+ ```
 ## Financials:
 
 ### Balance Sheet
