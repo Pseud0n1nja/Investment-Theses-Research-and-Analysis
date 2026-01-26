@@ -82,7 +82,24 @@ Circle’s business model is reminiscent of PayPal’s in the early 2000s, when 
                                                      ▼
                                             [LOOP CONTINUES]
  ```
-## Financials:
+## Financials Performance:
+
+
+| Metric ($M) | FY2022 | FY2023 | FY2024 | YoY 23/22 | YoY 24/23 |
+|-------------|--------|--------|--------|-----------|-----------|
+| **Revenue** | 772 | 1,450 | 1,676 | +88% | +16% |
+| **Gross Profit** | 463 | 722 | 659 | +56% | -9% |
+| **Gross Margin** | 60.0% | 49.8% | 39.3% | -1,020 bps | -1,050 bps |
+| **Operating Income** | (38) | 270 | 167 | +807% | -38% |
+| **Net Income** | (769) | 268 | 156 | +135% | -42% |
+| **Adj EBITDA** | 96 | 395 | 285 | +311% | -28% |
+
+
+<img width="4158" height="1484" alt="chart1_revenue_margins" src="https://github.com/user-attachments/assets/2c7596f9-d711-439e-b52c-da44d7bd3265" />
+<img width="2813" height="1470" alt="chart3_margin_heatmap" src="https://github.com/user-attachments/assets/a310af14-072b-4793-bd66-1e997f46332e" />
+
+
+
 
 ### Balance Sheet
 The balance sheet provides a snapshot of Circle’s financial position as of December 31, 2024. It highlights the company’s assets, liabilities, and shareholders’ equity.
