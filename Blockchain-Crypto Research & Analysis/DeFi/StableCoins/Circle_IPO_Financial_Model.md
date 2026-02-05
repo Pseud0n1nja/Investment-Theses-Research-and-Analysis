@@ -1,19 +1,10 @@
-# Circle IPO: A Quick Breakdown of Its Financial
+# Circle IPO: Investment Thesis
 
-| Item                                      | Detail                                                                                                                                                                  |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Issuer                                    | Circle Internet Group, Inc.                                                                                                                                             |
-| Exchange / Ticker                         | New York Stock Exchange (“NYSE”) / CRCL                                                                                                                                 |
-| Security                                  | Class A common stock                                                                                                                                                    |
-| Expected IPO range                        | $24.00 – $26.00 per Class A share                                                                                                                                       |
-| Base deal size (shares)                   | 24.0 million total shares: 9.6m primary (issued by Circle) + 14.4m secondary (selling stockholders)                                                                     |
-| Greenshoe / overallotment                 | Up to 3.6m additional primary shares (30-day option to cover over-allotments)                                                                                           |
-| Use of proceeds (Circle)                  | General corporate purposes; note: IPO-triggered equity vesting can create cash tax withholding/remittance obligations (company provides an estimate in the prospectus). |
-| Gross proceeds to Circle (base deal)      | $230.4m – $249.6m (9.6m × $24–$26)                                                                                                                                      |
-| Net proceeds to Circle (company estimate) | ~$213.2m at $25 midpoint; ~$298.0m if greenshoe exercised in full                                                                                                       |
-| Secondary sell-down (gross, base deal)    | $345.6m – $374.4m (14.4m × $24–$26) — Circle receives $0 from these shares                                                                                              |
-| Shares outstanding (undiluted)            | Pre-money: ~207.740m (existing stockholders) | Post-money: ~217.340m (adds 9.6m new shares)                                                                             |
-| Implied equity value (undiluted)          | Pre-money: ~$5.0–$5.4bn | Post-money: ~$5.2–$5.7bn (range × share counts)                                                                                               |
+## Core Investment Call
+
+Overweight / Long Circle. The setup is mispriced: the market is still valuing Circle primarily as a rate-sensitive float when the business is increasingly a regulated dollar network with improving distribution mix and visible operating leverage, plus underwritten option value in payments rails (CPN/Arc). The position is built for a 12–24 month horizon and sized around three drivers that compound through-cycle: USDC share, economics retained (on-platform mix), and margin durability.
+
+![Screenshot 2026-02-05 at 7 57 14 AM](https://github.com/user-attachments/assets/6630bc09-dafd-433b-8bba-622baae9e1b2)
 
 
 ## Introduction
