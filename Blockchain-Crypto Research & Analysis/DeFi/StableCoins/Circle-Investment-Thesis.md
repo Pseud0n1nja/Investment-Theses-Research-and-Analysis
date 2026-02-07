@@ -3,11 +3,15 @@
 
 ## 1.1 Core Investment Call
 
-**Overweight:** The setup is mispriced: the market is still valuing Circle primarily as a rate-sensitive float, while the business is increasingly a regulated dollar network with improving distribution mix, visible operating leverage, and underwritten option value in payments rails (**CPN** / **Arc**). The position is built for a **12–24 month** horizon and sized around three drivers that compound through-cycle:
+**Buy Circle Internet Group (CRCL) at ~$55 — the stock is pricing in an aggressive rate-cut cycle and ignoring a structural re-rating catalyst as stablecoins transition from a crypto settlement instrument to the money rail of the internet.**
 
-1. **USDC share**
-2. **Economics retained (on-platform mix)**
-3. **Margin durability**
+At the current price, CRCL trades at roughly 10x my 2027E Adj. EBITDA of $1.4B — a steep discount for a company compounding EBITDA at ~71% (2024-27E) and sitting at the centre of a regulatory tailwind that could expand the total addressable stablecoin market from ~$260B today to $4T over the next decade. Even in a bear case where the Fed cuts rates below 2% by 2027, I estimate CRCL still delivers $668M EBITDA (33% CAGR from 2024), which at the current enterprise value implies a modest ~17x multiple on trough earnings — hardly expensive for a monopoly-calibre network business.
+
+The thesis is simple: USDC is the toll road on the regulated digital dollar economy. Circle keeps growing the road network (now across 28 blockchains, 29 CPN partner institutions, and the Arc testnet), and the traffic (USDC supply at $76B, up from $24B just two years ago) keeps compounding faster than the toll rate (interest rates) declines. The stock has corrected ~80% from its June 2025 peak of $299, creating an asymmetric entry point where the downside is well-understood (rate cuts), and the upside (payments monetisation, Arc network effects, and BigTech/bank partnerships under the GENIUS Act) is barely priced.
+
+![Screenshot 2026-02-07 at 7 13 17 PM](https://github.com/user-attachments/assets/c446cd5a-1de5-4f97-b10b-9b47bab67e92)
+
+
 
 **Quick Snapshot of the Circle**
 ![Screenshot 2026-02-05 at 7 57 14 AM](https://github.com/user-attachments/assets/a1fd158f-f487-46c2-974f-a51c28a6a67d)
