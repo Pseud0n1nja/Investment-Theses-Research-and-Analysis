@@ -57,49 +57,46 @@ Reserve yield drives near-term earnings, but it is not the only driver of intrin
 <small><em>Source: Broker Reports, Public Filings</em></small>
 
 
-## 1.3 What Would Change the Position (Top 3 Disconfirming Signals)
+## 1.3 What Would Change My Mind (Top 3 Disconfirming Signals)
 
-The core thesis rests on USDC consolidating share, Circle retaining a greater portion of economics over time, and payments rails translating into durable, repeatable throughput. A break in any of these pillars would require a reassessment of position sizing or, in an extreme case, the thesis itself.
+**Signal 1: USDC Market Share Inflection Below 25%**
 
-**First, a structural break in USDC share would be the most direct red flag.**  
-Temporary share volatility is expected in a market driven by incentives and episodic liquidity events. What would be disconfirming is sustained share loss across multiple quarters *while the overall stablecoin market is expanding*. That scenario would suggest the issue is not cyclic or promotional, but competitive or structural. The key signal here is not absolute supply growth, but *relative share performance* through benign and constructive market conditions.
+If USDC's share of total stablecoin supply, currently at 29% and rising, reverses and drops below 25%, it would suggest the competitive moat is weaker than I believe. This could happen if: (a) Tether's USAT successfully replicates USDC's liquidity in the U.S. market, (b) bank-issued stablecoins achieve meaningful scale outside permissioned environments, or (c) PYUSD/USDG gain traction through PayPal's/Robinhood's retail distribution. I monitor weekly DefiLlama and CoinGecko data for market share trends.
 
-**Second, if economics retention stalls, the operating leverage story weakens materially.**  
-A central underwriting assumption is that Circle gradually captures a higher share of reserve economics as on-platform USDC grows and distribution dependence declines. If on-platform mix plateaus or reverses—and distribution drag rises without an offsetting improvement elsewhere—it would imply that the business is structurally capped as a toll-payer rather than a network owner. This would directly impair margin durability and long-term intrinsic value.
+**Signal 2: Coinbase Renegotiation Materially Worsens Economics**
 
-**Third, payments rails must prove they convert adoption into throughput.**  
-CPN and Arc are not valued as standalone products; they matter only insofar as they create repeatable, scaled money movement. If throughput flattens, corridors fail to scale, or delivery milestones slip meaningfully, it would suggest that Circle’s role remains primarily balance-sheet driven rather than flow-driven. In that case, the optionality embedded in the model would need to be discounted sharply.
+Coinbase currently takes ~50-55% of USDC reserve income — the largest single cost item. The Stablecoin Ecosystem Agreement governs this relationship, and any restructuring that increases Coinbase's take above 60% (or, worse, a scenario where Coinbase launches a competing stablecoin) would materially compress Circle's already-thin gross margins. I track Coinbase's quarterly filings for stablecoin revenue disclosures and any strategic shifts. As of Q3 2025, Coinbase's share actually decreased from 52% to 50% QoQ — a positive trend.
 
----
+**Signal 3: Fed Rates Fall Below 2% AND USDC Supply Growth Stalls Below $100B**
 
-## 1.4 Key Catalysts (Next 3–12 Months)
-
-Several upcoming developments should help resolve the market’s current debate around durability versus rate sensitivity.
-
-**Regulatory clarity on stablecoins** remains the most important external catalyst. Clear frameworks would validate onshore issuance models and reduce institutional hesitation, reinforcing Circle’s positioning rather than commoditizing it.
-
-**Progress on Arc** is the most important internal execution milestone. Movement from testnet to mainnet, followed by early institutional use cases, would provide tangible evidence that Circle is lowering integration friction for regulated participants.
-
-**CPN scaling signals**—particularly sustained volume growth and corridor expansion—would indicate that stablecoins are moving beyond episodic settlement into recurring operational workflows.
-
-Finally, **earnings prints that demonstrate mix improvement and margin resilience** would help reframe Circle away from a pure rate proxy and toward a network with improving economic capture.
+Either of these individually is manageable. Together, they're devastating. If rates go below 2% by 2027 and USDC supply averages only $100B (vs. my $173B estimate), reserve income falls to ~$2.0B (vs. $4.6B base case), and EBITDA collapses to around $400M. At the current enterprise value, that's still a ~30x multiple — reasonable for a growth business, but no longer a bargain. The dual scenario would invalidate the "supply overwhelms rates" pillar entirely.
 
 ---
 
-## 1.5 Top Risks and Monitoring Framework
+### 1.4 Key Catalysts (Next 3-12 Months)
 
-The primary risks to the thesis are well understood, but they are also measurable.
+1. **Q4 2025 / FY 2025 Earnings (February 25, 2026):** USDC supply entered Q4 at $76B vs. the $74B year-end target. If full-year EBITDA beats the $467M consensus (likely given Q3's $166M quarterly run-rate vs. the $117M quarterly implied), the stock re-rates.
 
-| Risk | How it is monitored |
-|---|---|
-| Faster-than-expected rate compression | Observed reserve yield trends; forward short-rate expectations |
-| Deterioration in distribution economics | Platform mix evolution; RLDC margin versus gross reserve income |
-| Regulatory delays or scope changes | Milestone tracking for stablecoin legislation and implementation |
-| Bank or BigTech entry | USDC share stability; announcements of major platform integrations |
-| Broad crypto drawdown | USDC supply and share resilience through risk-off periods |
+2. **Arc Blockchain Commercial Launch (Mid-2026):** Currently in testnet with 100+ organisations (including banks, asset managers, payment players). Commercial deployment creates a new fee-based revenue stream (USDC as native gas token) and an institutional on-ramp for USDC adoption outside crypto markets.
 
-The position is actively monitored against these signals, with the intent to adjust sizing well before any single risk fully materializes.
+3. **CPN Scaling Beyond 8 Countries:** The Circle Payments Network currently operates in Brazil, Canada, China, Hong Kong, India, Mexico, Nigeria, and the U.S. Expansion to the 6 additional countries announced (plus the 500+ institutional pipeline) could transform CPN from a proof of concept into a measurable revenue driver.
 
+4. **Major Bank or BigTech Stablecoin Partnership Under GENIUS Act:** The Act's prohibition on non-financial company issuance virtually guarantees partnership deals. A single announcement — Amazon/Circle, Meta/Circle, or a major bank consortium selecting USDC — would be a step-function re-rating event.
 
+5. **Rate Cut Clarity:** The current uncertainty is worse than any actual rate outcome. Once the market has visibility into the terminal rate, CRCL's multiple can stabilise. Paradoxically, even aggressive cuts could be positive for the stock if accompanied by rising risk-on sentiment driving crypto/USDC demand
+
+---
+
+## 1.5 Top Risks 
+
+The primary risks to the thesis are well understood.
+
+| Risk | Description | Impact |
+|------|-------------|--------|
+| **Rate Sensitivity** | Monoline float income model means revenue scales linearly with rates. Each -25bps cuts 2027E revenue by ~9%, EBITDA by ~11% | High |
+| **Distribution Concentration** | Coinbase takes ~50–55% of reserve income. Any renegotiation or strategic shift directly hits gross margins | High |
+| **Competitive Entry** | Tether’s USAT, bank stablecoins, Stripe/Tempo blockchain could fragment USDC’s market share | Medium |
+| **Crypto Market Dependence** | ~78% of USDC sits in crypto capital markets. A sustained bear market could reduce supply below forecasts | Medium |
+| **Regulatory Execution Risk** | GENIUS Act implementation timelines; international regulatory fragmentation (MiCA in EU, etc.) | Low–Medium |
 
 
