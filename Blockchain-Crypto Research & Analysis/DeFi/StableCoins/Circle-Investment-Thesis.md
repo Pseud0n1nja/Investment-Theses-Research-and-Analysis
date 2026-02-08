@@ -20,41 +20,8 @@ The thesis is simple: USDC is the toll road on the regulated digital dollar econ
 
 ## 1.2 Five Pillars of the Thesis
 
-### Pillar 1 — Regulation is shifting from “headline risk” to structural advantage
 
-Stablecoin market structure is converging toward onshore, auditable issuance. That shift rewards issuers with existing licensing, compliance infrastructure, and institutional credibility. The core underwriting point: as the compliance bar rises, default settlement dollars consolidate, and switching costs increase once institutions integrate
-
-![Screenshot 2026-02-05 at 8 11 47 PM](https://github.com/user-attachments/assets/fd096cce-c25c-409d-9399-01328e71901a)
-
-
-
-### Pillar 2 — Distribution + liquidity is the flywheel; cold-start remains the competitor’s constraint
-
-Stablecoins win through **distribution** (exchanges, wallets, payment platforms) and **liquidity** (depth, tight spreads, high-frequency settlement). These reinforce each other and are slow to replicate even for strong brands. Circle’s **USDC** is already embedded across major venues, providing a high-quality starting point for mainstream expansion.
-
-
-### Pillar 3 — Payments rails are the under-modeled upside (CPN + Arc)
-
-Circle is not only underwriting “more USDC.” The upside comes from converting USDC into repeatable institutional money movement (cross-border settlement, treasury workflows, foreign-exchange corridors). **CPN** is the wedge; **Arc** is the scaling layer that lowers integration friction for regulated participants. This is **option value**: difficult to model, easy to underprice.
-
-<img width="2202" height="1190" alt="image" src="https://github.com/user-attachments/assets/c4ac2c97-1025-4162-be5f-a1a1ecc422e8" />
-
-
-
-### Pillar 4 — Operating leverage is already visible; mix shift improves unit economics
-
-Operating leverage is not a forward hope—it is already present in the reported trajectory. The most important controllable lever is **economics retention**: growth in **on-platform USDC** increases the share of reserve economics that accrue directly to Circle, reducing the effective “distribution tax” over time.
-
-![Screenshot 2026-02-05 at 8 03 14 PM](https://github.com/user-attachments/assets/6ca784f4-b68a-4361-8ea4-0cecad30f26c)
-
-
-
-### Pillar 5 — Rate risk is a sensitivity, not the thesis
-
-Reserve yield drives near-term earnings, but it is not the only driver of intrinsic value. Supply growth and mix improvement can partially offset yield compression, and payments rails can diversify the earnings base over time. The market is currently pricing the downside of rate cuts more aggressively than it is crediting the durability of the network.
-
-![Screenshot 2026-02-05 at 8 14 33 PM](https://github.com/user-attachments/assets/5b1fc1bc-b9cf-4126-a355-ca2ed7553220)
-<small><em>Source: Broker Reports, Public Filings</em></small>
+**Pillar 1: USDC Supply Growth Overwhelms Rate Cut Headwinds**
 
 This is the single most important dynamic in the Circle story, and it's best understood through arithmetic. Consider a simplified version of Circle's revenue engine:
 
@@ -80,9 +47,42 @@ $$\Delta \text{Revenue per 25B supply} \approx 25\text{B} \times 2.9\% = 725\tex
 
 USDC supply is currently at $76B, already above the $74B year-end 2025E target. The supply tailwind is materially larger than the rate headwind, and the market is overweighting the latter.
 
+<img width="2077" height="1027" alt="1A_valuation_bridge" src="https://github.com/user-attachments/assets/7b7c26a1-58b3-4350-98f2-6c0154a4ba17" />
+
+### Pillar 2 — Regulation is shifting from “headline risk” to structural advantage
+
+Stablecoin market structure is converging toward onshore, auditable issuance. That shift rewards issuers with existing licensing, compliance infrastructure, and institutional credibility. The core underwriting point: as the compliance bar rises, default settlement dollars consolidate, and switching costs increase once institutions integrate
+
+![Screenshot 2026-02-05 at 8 11 47 PM](https://github.com/user-attachments/assets/fd096cce-c25c-409d-9399-01328e71901a)
 
 
-<img width="2077" height="1027" alt="1A_valuation_bridge" src="https://github.com/user-attachments/assets/4c3ec0c0-dd63-46b0-b4d3-19217130090e" />
+
+### Pillar 3 — Distribution + liquidity is the flywheel; cold-start remains the competitor’s constraint, Payments rails are the under-modeled upside (CPN + Arc)
+
+Stablecoins win through **distribution** (exchanges, wallets, payment platforms) and **liquidity** (depth, tight spreads, high-frequency settlement). These reinforce each other and are slow to replicate even for strong brands. Circle’s **USDC** is already embedded across major venues, providing a high-quality starting point for mainstream expansion.
+
+
+Circle is not only underwriting “more USDC.” The upside comes from converting USDC into repeatable institutional money movement (cross-border settlement, treasury workflows, foreign-exchange corridors). **CPN** is the wedge; **Arc** is the scaling layer that lowers integration friction for regulated participants. This is **option value**: difficult to model, easy to underprice.
+
+<img width="2202" height="1190" alt="image" src="https://github.com/user-attachments/assets/c4ac2c97-1025-4162-be5f-a1a1ecc422e8" />
+
+
+
+### Pillar 4 — Operating leverage is already visible; mix shift improves unit economics
+
+Operating leverage is not a forward hope—it is already present in the reported trajectory. The most important controllable lever is **economics retention**: growth in **on-platform USDC** increases the share of reserve economics that accrue directly to Circle, reducing the effective “distribution tax” over time.
+
+![Screenshot 2026-02-05 at 8 03 14 PM](https://github.com/user-attachments/assets/6ca784f4-b68a-4361-8ea4-0cecad30f26c)
+
+
+
+### Pillar 5 — Rate risk is a sensitivity, not the thesis
+
+Reserve yield drives near-term earnings, but it is not the only driver of intrinsic value. Supply growth and mix improvement can partially offset yield compression, and payments rails can diversify the earnings base over time. The market is currently pricing the downside of rate cuts more aggressively than it is crediting the durability of the network.
+
+![Screenshot 2026-02-05 at 8 14 33 PM](https://github.com/user-attachments/assets/5b1fc1bc-b9cf-4126-a355-ca2ed7553220)
+<small><em>Source: Broker Reports, Public Filings</em></small>
+
 
 
 ## 1.3 What Would Change My Mind (Top 3 Disconfirming Signals)
@@ -143,7 +143,7 @@ But reducing Circle to "a stablecoin issuer" fundamentally mischaracterises the 
 
 **Revenue Model:** Approximately 96-99% of revenue comes from *reserve income* — the interest earned on U.S. Treasuries and cash backing USDC deposits. The remaining 1-4% (growing rapidly) comes from transaction-based fees across blockchain integrations, CCTP, CPN, and USYC. Critically, Circle shares a substantial portion of reserve income with distribution partners — primarily Coinbase (~50-55%) and Binance (upfront fees + ongoing incentives) — to drive adoption.
 
-*Sources: Circle S-1 Filing; Bernstein Primer (Oct 2025), pp. 2-3; Circle Q3 2025 Earnings Call.*
+*Sources: Circle S-1 Filing; Broker Reports; Circle Q3 2025 Earnings Call.*
 
 ### 2.2 USDC: How Issuance and Redemption Works
 
@@ -188,7 +188,7 @@ CPN's launch 5 months ago, with $3.4B annualised GPV, 29 institutions onboarded,
 
 ![Screenshot 2026-02-08 at 8 52 04 AM](https://github.com/user-attachments/assets/7b8c413a-c881-42fe-8504-856cfa8ef727)
 
-*Sources: Circle Q3 2025 Earnings; Bernstein Primer (Oct 2025), Exhibits 8-10; Bernstein Q3 Report.*
+
 
 ### 2.4 Competitive Advantage Summary
 
@@ -224,11 +224,11 @@ This is not theoretical. USDC transaction volumes reached $3T in just H1 2025, r
 <img width="2694" height="1852" alt="image" src="https://github.com/user-attachments/assets/a85beb52-1ca3-47c0-852b-5bb4b50bfeb0" />
 
 
-*Sources: SWIFT; Visa Onchain Analytics; CoinGecko; Bernstein Primer (Oct 2025), pp. 1-2.*
+*Sources: SWIFT; Visa Onchain Analytics; CoinGecko; Broker Reports*
 
 ### 3.2 Current Usage Split
 
-Stablecoin usage today remains predominantly crypto-native, but the composition is shifting. Based on my analysis of on-chain data and Bernstein's estimates for Q2 2025:
+Stablecoin usage today remains predominantly crypto-native, but the composition is shifting. Based on my analysis of on-chain data and Sell side reserach's estimates for Q2 2025:
 
 **Crypto Capital Markets (~56% of total stablecoin supply):**
 - Centralised exchanges (Coinbase, Binance, etc.): ~39% of supply
@@ -260,7 +260,7 @@ Looking forward, I model the stablecoin market evolving in three phases:
 
 **Phase 2 — Payments Acceleration (2027-2030E):** Cross-border B2B payments and remittances adopt stablecoin rails at scale. The initial product-market fit is strongest where existing rails are most broken: $40T+ cross-border B2B payments (stablecoins could capture 10-20% of the $1.8T annual remittance market), and stablecoin-native financial services (think "Global Revolut on USDC"). Total supply approaches $1.5-2T.
 
-**Phase 3 — Financial Infrastructure (2030-2035E):** Stablecoins become the default settlement layer for tokenised capital markets, programmable payments, and institutional treasury management. Bernstein estimates total stablecoin supply reaching ~$4T by 2035E, with crypto and tokenised capital markets at 54%, payments and financial services at 29%, and wallet balances/other at 17%.
+**Phase 3 — Financial Infrastructure (2030-2035E):** Stablecoins become the default settlement layer for tokenised capital markets, programmable payments, and institutional treasury management. Its been estimated that total stablecoin supply reaching ~$4T by 2035E, with crypto and tokenised capital markets at 54%, payments and financial services at 29%, and wallet balances/other at 17%.
 
 The TAM arithmetic is striking: at $4T of total stablecoin supply with a ~30% USDC share, that's $1.2T of USDC in circulation. Even at a 2% reserve yield and after distribution costs, the annual float income on that base exceeds $10B. Layer on transaction fees from CPN, Arc, and CCTP, and the revenue opportunity is enormous.
 
@@ -313,7 +313,7 @@ MiCA creates an EU licensing regime. Circle secured a French **EMI** licence and
 
 **Other jurisdictions:** UK (FSM Bill; FCA engagement), Singapore (MAS Payment Services Act; Circle MPI licence), Japan (revised Payment Services Act), UAE/Dubai (VARA).
 
-*Sources: GENIUS Act legislative text; MiCA regulation; Bernstein Primer (Oct 2025), pp. 4–5; SEC filings.*
+*Sources: GENIUS Act legislative text; MiCA regulation; Broker Report; SEC filings.*
 
 ### 4.2 Implications for Issuers: Onshore vs. Offshore
 
@@ -334,7 +334,7 @@ GENIUS shapes adoption incentives:
 
 ### 4.4 Second-Order Effects
 
-- **Treasury demand:** if stablecoin supply reaches **$4T by 2035E** (Bernstein) under 100% Treasury-backed rules, that implies **$3–4T** incremental Treasury demand (vs Japan’s ~$1.1T holdings), aligning U.S. interests with stablecoin growth and reducing the odds of regulatory reversal.  
+- **Treasury demand:** if stablecoin supply reaches **$4T by 2035E**  under 100% Treasury-backed rules, that implies **$3–4T** incremental Treasury demand (vs Japan’s ~$1.1T holdings), aligning U.S. interests with stablecoin growth and reducing the odds of regulatory reversal.  
 - **Compliance as moat:** GENIUS adds meaningful fixed costs (BSA/AML/KYC, attestations, OCC oversight). Circle has already built the infrastructure; new entrants likely need **tens of millions** before minting a token.
 
 
@@ -366,7 +366,10 @@ Paxos is Circle's most credible domestic competitor, operating with a similar co
 
 Ripple, traditionally focused on its native XRP token for cross-border payments, entered the stablecoin market late. Its recent acquisition of Hidden Road (institutional crypto prime brokerage) provides a distribution channel, but RLUSD is sub-scale and XRP's volatility as a payment medium has historically been a liability rather than an asset.
 
-*Sources: CoinGecko; Company disclosures; Bernstein Primer (Oct 2025), pp. 8-10.*
+<img width="2380" height="879" alt="5A_competitor_table" src="https://github.com/user-attachments/assets/ba609e78-62b2-4110-bf2f-e211164f2ad0" />
+
+
+*Sources: CoinGecko; Company disclosures; Broker Reports.*
 
 
 ![Screenshot 2026-02-08 at 4 46 38 PM](https://github.com/user-attachments/assets/a224166a-58f4-4d4e-af48-bfef6c47a258)
@@ -405,14 +408,12 @@ Here, Circle has three distribution advantages:
 
 Circle's Achilles' heel is its distribution cost structure. The Coinbase deal — while strategically essential — means Circle retains only 45-50% of gross reserve income. Each new partner deal (Binance's $60M upfront + ongoing incentives, OKX, future bank partners) further compresses the gross margin.
 
-Here's the arithmetic of the margin squeeze: Bernstein estimates Circle's net reserve margin (reserve income after distribution costs) falling from 39% in 2024 to 35% by 2027E. This decline is the *cost of growth* — Circle is buying market share by sharing economics with distribution partners. The bet is that the volume gain (5x supply growth) more than offsets the margin compression (400 bps).
+Here's the arithmetic of the margin squeeze: ITs being estimated that Circle's net reserve margin (reserve income after distribution costs) falling from 39% in 2024 to 35% by 2027E. This decline is the *cost of growth* — Circle is buying market share by sharing economics with distribution partners. The bet is that the volume gain (5x supply growth) more than offsets the margin compression (400 bps).
 
 The risk scenario is one where a well-capitalised competitor (say, a Tether-backed USAT or a bank consortium) offers exchange partners an even more generous revenue share, forcing Circle to match at the expense of its already-thin gross margins. I view this as a real but manageable risk: Circle's existing liquidity and integration depth create meaningful switching costs that make it expensive for exchanges to switch primary stablecoins.
 
-> **Suggested Exhibits for Section 5:**
-> - **Exhibit 5A:** Competitor Comparison Table — Matrix showing USDC, USDT, USAT, PYUSD, USDG, RLUSD across: supply, market share, # blockchains, regulatory status, reserve transparency, revenue model. *Generate as a formatted table.*
-> - **Exhibit 5B:** Distribution Moat Flywheel — screenshot from Bernstein Primer Exhibit 11 (Circle's partner ecosystem map showing banks, payments, digital assets, capital markets). *This visual demonstrates the breadth and depth of Circle's distribution network.*
-> - **Exhibit 5C:** USDC Market Share Trajectory — screenshot from Bernstein Q3 Report Exhibit 4 (USDC market share climbing from 22% to 29% over Q3 2024 to Q3 2025). *The uptrend is the best counter to competition fears.*
+![Screenshot 2026-02-08 at 5 14 25 PM](https://github.com/user-attachments/assets/7443fef1-f3bc-4bb4-b104-31e0318486e0)
+
 
 ---
 
@@ -451,7 +452,6 @@ The key insight is that supply growth is a *multiplicative* driver while rate ch
 
 The margin on other revenue is remarkable: 99% gross margin in Q3 2025 (only $0.4M in associated costs on $29M revenue). This is essentially pure software fee revenue — zero variable cost. As this line scales, it provides both EBITDA growth and a natural hedge against rate cuts.
 
-*Sources: Bernstein Financial Model; Company Q3 2025 filings; Bernstein Primer (Oct 2025), pp. 17-19.*
 
 
 ### 6.2 Distribution Costs: Who Takes What
@@ -492,7 +492,7 @@ Circle and Coinbase jointly decide on onboarding additional partners under the S
 
 The margin compression from 61% (2022) to 33% (2027E) reflects the shift from a Coinbase-centric distribution model to a broader partnership ecosystem. However, the margin stabilises around 33-35% by 2026-27E as the Coinbase share of total USDC declines (from 55% of reserve income in 2024 to ~46% by 2027E) and higher-margin Circle on-platform USDC grows.
 
-*Sources: Bernstein Financial Model; Bernstein Primer (Oct 2025), Exhibits 20-21, 23.*
+![Screenshot 2026-02-08 at 5 22 56 PM](https://github.com/user-attachments/assets/90ba8d61-f86a-4382-a6f9-cc7f7b882a44)
 
 ### 6.3 Net Revenue and Margin Drivers
 
@@ -501,6 +501,10 @@ Circle's profitability metric of choice is **Revenue Less Distribution Costs (RL
 The RLDC margin story is nuanced: the *reserve income* RLDC margin is declining (39% → 33%), but the *total* RLDC margin benefits from the scaling of high-margin other revenue (95-99% margin). By 2027E, I estimate total RLDC margin at ~37-38%, down only 200 bps from 2024 despite the massive expansion of the distribution partner base — because the other revenue mix effect partially offsets the reserve income margin compression.
 
 In dollar terms, RLDC grows from $659M (2024A) to $1,838M (2027E) — a 2.8x increase that powers the entire EBITDA expansion.
+
+
+![Screenshot 2026-02-08 at 5 22 45 PM](https://github.com/user-attachments/assets/1a1271d3-f65b-40b3-a370-cd9a058f396c)
+
 
 ### 6.4 Opex Structure and Operating Leverage
 
@@ -517,13 +521,18 @@ Below the RLDC line, Circle's operating expense base is remarkably fixed relativ
 
 *Note: 2025E compensation and SBC are elevated due to IPO-related one-time charges (stock-based compensation for pre-IPO equity conversions). Normalised 2026-27E comp levels reflect the actual ongoing cost structure.*
 
+<img width="1777" height="1030" alt="6E_margin_bridge" src="https://github.com/user-attachments/assets/1b57f409-7fc0-4e39-894a-b8fffb60cc28" />
+
 The key observation: total cash opex (ex-SBC, ex-D&A) grows from ~$444M in 2024 to ~$831M by 2027E — roughly 2x growth. Meanwhile, RLDC grows from $659M to $1,838M — roughly 3x. This differential is the operating leverage, and it's why EBITDA margin expands from 43% (2024) to 69% (2027E) despite gross margin compression.
 
 The operating leverage is structural, not cyclical: Circle's platform costs (compliance infrastructure, blockchain integrations, developer tools) are largely fixed. Serving $220B of USDC doesn't require proportionally more compliance officers, more blockchain node operators, or more customer support than serving $44B. The marginal cost of an additional dollar of USDC supply is essentially zero.
 
+
+![Screenshot 2026-02-08 at 5 17 00 PM](https://github.com/user-attachments/assets/ce0ec494-9251-452c-bfd5-90a7b2e66144)
+
 ### 6.5 Sensitivities
 
-The two most important sensitivity variables are SOFR rate and average USDC supply. Bernstein's sensitivity matrix (which I consider the single most useful analytical framework for CRCL) shows:
+The two most important sensitivity variables are SOFR rate and average USDC supply. '
 
 **Revenue Sensitivity (2027E):**
 - At $173B avg supply and 2.9% SOFR: $4.6B reserve income (base case)
@@ -548,11 +557,8 @@ The asymmetry is clear: EBITDA is 3x more sensitive to supply changes than to ra
 
 Even in the extreme bear case (which requires both an aggressive rate cutting cycle to 1.9% AND a stalling of USDC supply growth at $100B), EBITDA remains positive at ~$400M, implying the current enterprise value of ~$12B represents ~30x trough earnings.
 
-> **Suggested Exhibits for Section 6:**
-> - **Exhibit 6A:** Revenue Waterfall — waterfall chart showing Gross Reserve Income → minus Distribution Costs → Net Reserve Income → plus Other Revenue (net) → RLDC → minus Opex → Adj. EBITDA. *Screenshot from Bernstein Primer Exhibit 20, updated with 2027E projections.*
-> - **Exhibit 6B:** Rate × Supply Sensitivity Heatmap — screenshot from Bernstein Primer Exhibit 31 (EBITDA sensitivity matrix). *This is the most important analytical exhibit in the thesis — include both the reserve income and EBITDA versions (Exhibits 30 and 31).*
-> - **Exhibit 6C:** Margin Bridge — bar chart showing RLDC margin decomposition: Reserve income margin declining, but other revenue margin contribution increasing, leading to stable total RLDC margin. *Generate as a custom chart.*
-> - **Exhibit 6D:** Valuation Sensitivity to Rate Cuts — screenshot from Bernstein Primer Exhibit 32 (EV/EBITDA multiple at various price/SOFR combinations). *This shows what the market is "pricing in" at $55 per share.*
+![Screenshot 2026-02-08 at 5 27 00 PM](https://github.com/user-attachments/assets/b63a7439-b986-451f-a9d2-0329b6d2849f)
+
 
 ---
 
@@ -560,12 +566,11 @@ Even in the extreme bear case (which requires both an aggressive rate cutting cy
 
 ### 7.1 Core Assumptions Table
 
-All forecasts are derived from the Bernstein financial model, cross-referenced with company filings and my own analysis. I present assumptions explicitly so they can be audited, challenged, and stress-tested:
 
 | Assumption | 2024A | 2025E | 2026E | 2027E | Source / Rationale |
 |-----------|------:|------:|------:|------:|:---|
 | **USDC Supply, EOP ($B)** | $44 | $76 | $132 | $220 | 71% CAGR; driven by crypto market growth, exchange integrations, payments adoption |
-| **USDC Supply, Avg. ($B)** | ~$34 | ~$63 | ~$99 | ~$173 | Bernstein model; intra-year supply build |
+| **USDC Supply, Avg. ($B)** | ~$34 | ~$63 | ~$99 | ~$173 | Financial model; intra-year supply build |
 | **Reserve Yield (avg)** | 5.0% | 4.1% | 3.2% | 2.6% | SOFR path: 4.3% → 2.9% by 2027; conservative on rate cuts |
 | **Coinbase % of Reserve Income** | 55% | 51% | 48% | 46% | Declining as on-platform and other exchange USDC grows |
 | **Other Revenue (% of total)** | 1% | 4% | 5% | 6% | CPN, CCTP, blockchain subscriptions scaling |
@@ -574,7 +579,6 @@ All forecasts are derived from the Bernstein financial model, cross-referenced w
 | **EBITDA Margin (on RLDC)** | 43% | 49%* | 57% | 69% | *2025E depressed by IPO-related SBC; normalising 2026+ |
 | **Shares Outstanding (FD, M)** | — | 237 | 237 | 237 | Post-IPO: 228M basic + dilution |
 
-*Sources: Bernstein Financial Model; Company filings; Bernstein Primer (Oct 2025), Exhibit 35.*
 
 ### 7.2 Forecast P&L
 
@@ -594,11 +598,13 @@ All forecasts are derived from the Bernstein financial model, cross-referenced w
 | **Revenue CAGR (2024-27E):** | | | | | | **47%** |
 | **EBITDA CAGR (2024-27E):** | | | | | | **71%** |
 
+
+![Screenshot 2026-02-08 at 5 28 10 PM](https://github.com/user-attachments/assets/6991746f-d746-40b2-90f8-e10982d835f7)
+
 *2025E operating loss driven by $533M IPO-related SBC charge; underlying business is profitable.*
 
-**Free Cash Flow (2027E):** The Bernstein DCF model projects FCFF of ~$916M in 2027, growing to $1.3B by 2028 and $1.9B by 2029, reflecting the cash-generative nature of the business as operating leverage kicks in and IPO-related expenses normalise.
+**Free Cash Flow (2027E):** The DCF model projects FCFF of ~$916M in 2027, growing to $1.3B by 2028 and $1.9B by 2029, reflecting the cash-generative nature of the business as operating leverage kicks in and IPO-related expenses normalise.
 
-*Sources: Bernstein Financial Model (BERN_CRCL.xlsx); Company filings; Bernstein Primer Exhibit 35.*
 
 ### 7.3 Balance Sheet and Capital Considerations
 
@@ -609,6 +615,8 @@ Key balance sheet observations:
 - **No financial debt:** Circle has no meaningful leverage, which is both conservative and appropriate given the reserve management model.
 - **Share count:** ~237M fully diluted shares post-IPO (228M basic + primary IPO shares + greenshoe + dilution from options/RSUs). IPO involved 34M shares (14.8M primary, 19.2M secondary), raising $459M in primary proceeds.
 - **SBC dilution:** The $533M SBC charge in 2025 is the primary dilution risk, but the share count stabilises post-IPO at ~237M.
+
+
 
 ### 7.4 Scenario Cases
 
@@ -622,11 +630,8 @@ Key balance sheet observations:
 
 The probability-weighted expected EBITDA of ~$1.2B at a 10x multiple implies the stock is roughly fairly valued *only if you assign near-zero optionality value* to payments monetisation, Arc revenue, and BigTech partnerships. Any materialisation of these options provides pure upside.
 
-> **Suggested Exhibits for Section 7:**
-> - **Exhibit 7A:** Summary P&L Table — the table above, cleanly formatted. *Screenshot from Bernstein Primer Exhibit 35 or generate as a formatted table.*
-> - **Exhibit 7B:** USDC Supply Growth Chart — screenshot from Bernstein Primer Exhibit 25 (quad-chart with supply, revenue, RLDC, EBITDA trajectories). *This is the single best "growth story in one picture" chart.*
-> - **Exhibit 7C:** Scenario Matrix — the scenario table above, with colour coding (green for bull, blue for base, yellow for moderate bear, red for extreme bear).
-> - **Exhibit 7D:** Drivers-to-Numbers Bridge — waterfall showing: 2024 EBITDA ($285M) + supply growth effect + rate headwind + other revenue growth + opex leverage = 2027E EBITDA ($1,426M). *Generate as a custom waterfall chart.*
+
+<img width="1927" height="1028" alt="9A_rate_impact" src="https://github.com/user-attachments/assets/f7a909d6-fe4c-44da-9645-667b1dd6a4a8" />
 
 ---
 
@@ -652,15 +657,14 @@ Despite these limitations, comps provide a useful sanity check:
 | Coinbase (COIN) | $357 | $93 | $7.2B | $8.1B | 12.9x | 11.4x |
 | Robinhood (HOOD) | $139 | $126 | $4.2B | $5.1B | 29.7x | 24.9x |
 | **CRCL (Current)** | **$55** | **$12** | **$714M** | **$1,426M** | **17x** | **8x** |
-| **CRCL (Bernstein PT)** | **$230** | **$50** | **$714M** | **$1,426M** | **71x** | **35x** |
+| **CRCL (PT)** | **$230** | **$50** | **$714M** | **$1,426M** | **71x** | **35x** |
 
 At $55, CRCL trades at 8x 2027E EBITDA — cheaper than Visa, Mastercard, PayPal, Coinbase, and Robinhood, despite growing EBITDA significantly faster (71% CAGR vs. 10-25% for comps). Even accounting for the rate-sensitivity risk premium, this seems overly punitive.
 
-*Sources: Bernstein Primer (Oct 2025), Exhibit 26; Bloomberg; Bernstein Financial Model.*
 
 ### 8.2 Primary Method: 10-Year DCF
 
-Given Circle's long-dated TAM expansion opportunity (stablecoins potentially reaching $4T by 2035), a DCF is the most appropriate primary valuation method. The Bernstein financial model provides a detailed 10-year projection:
+Given Circle's long-dated TAM expansion opportunity (stablecoins potentially reaching $4T by 2035), a DCF is the most appropriate primary valuation method. The financial model provides a detailed 10-year projection:
 
 **Key DCF Assumptions:**
 - **WACC:** 10.3% (derived from: risk-free rate 4.3%, equity risk premium 5.25%, beta 1.125, near-zero debt weight)
@@ -687,11 +691,10 @@ Given Circle's long-dated TAM expansion opportunity (stablecoins potentially rea
 | Shares Outstanding | | | 237M |
 | **Implied Price** | | | **~$189** |
 
-The DCF yields an implied price of ~$189 per share — broadly consistent with the Bernstein financial model's $190 target (the $230 price target in the research reports reflects rounding and potential updating of assumptions post-model build). At the current price of $55, this implies ~245% upside to fair value.
+The DCF yields an implied price of ~$189 per share — broadly consistent with the financial model's $190 target (the $230 price target in the research reports reflects rounding and potential updating of assumptions post-model build). At the current price of $55, this implies ~245% upside to fair value.
 
 **Terminal Value Analysis:** The terminal value ($65.6B in 2035, discounted to $27.2B) represents ~65% of total enterprise value. This is typical for high-growth companies with long-duration TAM opportunities. At the 10.3% WACC and 2% terminal growth, the implied terminal FCFF multiple is 12.3x — reasonable given the maturity stage by 2035.
 
-*Sources: Bernstein Financial Model (BERN_CRCL.xlsx), Valuation sheet; Bernstein Primer (Oct 2025).*
 
 ### 8.3 Secondary: Comp Set and Multiple Rationale
 
@@ -703,13 +706,15 @@ CRCL's 2024-27E EBITDA CAGR of 71% is significantly above the comp set (Visa 10%
 
 - At 20x '27 EBITDA (modest premium to comps, discount to growth): Price ≈ $120
 - At 25x '27 EBITDA (in-line with Robinhood/Coinbase): Price ≈ $150
-- At 35x '27 EBITDA (Bernstein target): Price ≈ $210
+- At 35x '27 EBITDA (Model target): Price ≈ $210
 
 The current 8x '27 EBITDA implies the market is pricing CRCL as if it were a declining-revenue financial with no growth optionality. Even a modest re-rating to 15-20x (still below the comp set average) would yield 100-130% upside.
 
+<img width="1753" height="1177" alt="8D_growth_vs_multiple" src="https://github.com/user-attachments/assets/a1bbcf9a-b367-418f-a5fb-e48b4aca5c10" />
+
 ### 8.4 Sensitivities and Implied Multiples
 
-Using the Bernstein valuation sensitivity matrix, I can map what the stock price implies at various rate/supply combinations:
+Using the valuation sensitivity matrix, I can map what the stock price implies at various rate/supply combinations:
 
 At the current price of $55, assuming 2027 EBITDA at different SOFR scenarios:
 - If SOFR = 2.9%, EBITDA = $1.3B → Implied EV/EBITDA ≈ 9x
@@ -740,78 +745,53 @@ At $220B of USDC supply (2027 year-end) and a fully-loaded cost structure:
 
 Scaling to $1T of USDC (plausible by 2030-32E): EBITDA per $1 × $1T = ~$3B — a reasonable trajectory and one that justifies a premium valuation today.
 
-> **Suggested Exhibits for Section 8:**
-> - **Exhibit 8A:** DCF Summary Table — the DCF table above, cleanly formatted. *Generate or screenshot from Bernstein model.*
-> - **Exhibit 8B:** Valuation Sensitivity Grid — screenshot from Bernstein Primer Exhibit 32 (EV/EBITDA at various price/SOFR combinations). *This shows what the market is "pricing in" and illustrates the asymmetry.*
-> - **Exhibit 8C:** Comps Table — screenshot from Bernstein Primer Exhibit 26 (comps scatter with CRCL at current and target prices). *The visual of CRCL at 8x vs. comps at 15-25x is compelling.*
-> - **Exhibit 8D:** Growth vs. Multiple Scatter — plot showing comp set on x-axis (EBITDA CAGR), y-axis (EV/EBITDA), with CRCL clearly in the lower-right (high growth, low multiple) quadrant. *Generate as a custom scatter plot.*
 
 ---
-
 ## 9. Risks and Mitigants
 
-### 9.1 Macro Risk: Rate Cuts and Drawdown Behavior
+### 9.1 Macro Risk: Rate Cuts and Drawdown Behavior  
+**Risk:** Circle is effectively a monoline float-income business (96–99% of revenue from reserve income), so earnings are highly rate-sensitive. Each -25 bps cut reduces 2027E revenue by ~9% and EBITDA by ~11%. If the Fed cuts to <2% by 2027 (recession scenario), revenue could land ~30–40% below base case.  
 
-**The Risk:** Circle's monoline revenue model (96-99% reserve income) means the P&L is directly linked to interest rates. Each 25 bps rate cut reduces 2027E revenue by ~9% and EBITDA by ~11%. If the Fed cuts aggressively to below 2% by 2027 (not the base case but possible under recession scenario), revenue could fall 30-40% below base estimates.
+**Mitigants:**  
+1) **Supply as a hedge:** Rate cuts often coincide with risk-on cycles that expand crypto activity and stablecoin demand (e.g., 2020–21: stablecoin supply ~$5B → ~$150B even as rates went near zero).  
+2) **Operating leverage:** Fixed opex dampens EBITDA sensitivity as supply scales; Bernstein bear case (~$170B avg supply, <2% rates) still implies **2027 EBITDA ~$668M** (~33% CAGR from 2024).  
+3) **Non-float revenue floor:** “Other revenue” is ~99% gross margin and already **$110M+ annualized run-rate**, growing 20%+ QoQ, providing a rate-insensitive earnings base.  
 
-**The Mitigant:** Three structural offsets reduce the actual downside:
+**Drawdown behavior:** CRCL has high beta to both crypto sentiment and rate expectations. The stock fell ~80% from ~$299 (Jun 2025) to ~$55 (Feb 2026) due to (a) rate-cut fears, (b) crypto cooldown, (c) IPO lock-up expiry selling, and (d) competitive noise (Stripe/Tempo, Tether USAT). The key question is whether fundamentals (supply growth, share, margins) remain intact—Q3 2025 suggests they do.
 
-1. *USDC supply acts as a natural hedge:* Rate cuts typically accompany risk-on environments that drive crypto asset prices higher, which in turn increases demand for stablecoins. The 2020-2021 period demonstrated this — when the Fed cut rates to near-zero, stablecoin supply exploded from $5B to $150B. A low-rate environment that crushes Circle's yield could simultaneously drive a supply supercycle.
+### 9.2 Distribution Risk: Partner Renegotiation  
+**Risk:** Coinbase captures ~50% of USDC reserve income; Binance receives ongoing incentives; future partners will demand economics. If distribution costs exceed the ~67% of reserve income assumed in 2027E, net margins compress.  
 
-2. *Operating leverage compresses the sensitivity at the EBITDA level:* Because opex is fixed, EBITDA margins expand as supply grows, partially offsetting rate-driven revenue declines. In Bernstein's bear case ($170B avg supply, rates below 2%), 2027 EBITDA is $668M — still a 33% CAGR from 2024.
+**Mitigants:**  
+1) **Aligned incentives:** USDC reserve income is one of Coinbase’s most profitable streams (~$1.5B annualized), so pushing Circle into uneconomic terms risks killing the goose.  
+2) **Mix shift to on-platform:** Circle on-platform USDC rose **10% → 14%** of supply (zero distribution cost). Each +1% shift adds **~$35–40M** to RLDC at current supply.  
+3) **Mutual “nuclear option” constraint:** Coinbase launching a rival stablecoin would (a) destroy the existing USDC revenue stream during ramp, (b) require regulatory approval, and (c) start at zero liquidity vs USDC’s ~$76B—switching costs are prohibitive for both sides.  
+4) **Concentration declining:** As Binance/OKX/CPN institutions/future banks scale, Coinbase bargaining power falls; Coinbase’s reserve-income share has already declined **55% (2024) → ~50% (Q3 2025).**
 
-3. *Non-float revenue provides an income floor:* At 99% gross margin and $110M+ annualised run-rate (and growing 20%+ QoQ), other revenue provides a rate-insensitive earnings base that continues to compound regardless of the interest rate environment.
+### 9.3 Regulatory Risk  
+**Risk:** Even post-GENIUS Act, execution risk remains—rulemaking timelines, OCC charter processing, and cross-border harmonisation are uncertain; future administrations could tighten stablecoin rules.  
 
-**Drawdown Behaviour:** CRCL stock has high beta to both crypto sentiment and interest rate expectations. From its $299 peak (June 2025) to ~$55 today (February 2026), the stock declined ~80% — driven by a combination of: (a) rate cut fears, (b) crypto market cooldown, (c) IPO lock-up expiry selling, and (d) competitive noise (Stripe/Tempo, Tether USAT). This type of drawdown is painful but characteristic of early-stage monopoly-calibre businesses trading in cyclically-sensitive markets. The key question is whether the underlying business (supply growth, market share, margin expansion) is intact — and the Q3 2025 data suggests it clearly is.
+**Mitigant:** The political economy favors growth: stablecoins boost U.S. Treasury demand (already a top-20 holder class), reinforce dollar dominance, and support domestic economic activity. GENIUS passed with bipartisan support; reversal would mean undermining a Treasury funding tailwind—politically implausible.
 
-### 9.2 Distribution Risk: Partner Renegotiation
+### 9.4 Competitive Risk  
+**Risk:** USAT (Tether), bank stablecoins, Stripe/Tempo, or a BigTech pathway could pressure USDC share and economics.  
 
-**The Risk:** Coinbase captures ~50% of USDC reserve income, Binance receives ongoing incentives, and future partners will demand their share. If distribution costs increase beyond the ~67% of reserve income modelled for 2027E, CRCL's net margins compress further.
+**Mitigant:** The market is expanding fast enough for multiple winners: ~$260B today → ~$670B by 2027E → ~$4T by 2035E. Even if USDC share falls 5–10 pts (e.g., to ~20%), absolute supply can still compound sharply. The bigger risk is *market contraction* (sustained crypto bear market **and** stalled payments adoption)—a low-probability combo.
 
-**The Mitigant:** Four factors limit the distribution risk:
+### 9.5 Operational and Reputational Risks  
+**Reserve management:** Reserves are U.S. Treasuries + cash at regulated custodians (via BlackRock’s Circle Reserve Fund). The 2023 SVB episode (Circle had $3.3B at SVB) showed both risk and resilience—peg restored within ~48 hours. A U.S. Treasury default would be systemic (not Circle-specific) and non-diversifiable.  
 
-1. *Coinbase's interest is aligned:* USDC reserve income is one of Coinbase's most profitable revenue streams (~$1.5B annualised). Coinbase has no incentive to push Circle into an uneconomic deal — it would damage the golden goose.
+**Operational execution:** Arc is in testnet with a 2026 commercial launch target. A buggy launch, security breach, or weak institutional adoption could break the “platform vs issuer” narrative underpinning premium valuation; probability is mitigated by high-caliber testnet participants (HSBC, Goldman Sachs, Visa, etc.).  
 
-2. *Circle on-platform USDC is growing:* The shift from 10% to 14% of supply on Circle's own platform (zero distribution cost) partially offsets distribution expansion elsewhere. Every percentage point shift to on-platform USDC adds ~$35-40M to RLDC at current supply levels.
+**Key person risk:** Jeremy Allaire is central to Circle’s strategic positioning; departure would be a negative signal, though licences and institutional relationships are not purely person-dependent.
 
-3. *The "nuclear option" is mutual:* Coinbase could theoretically launch a competing stablecoin, but doing so would (a) destroy the USDC revenue stream during the buildout period, (b) require regulatory approval, and (c) start from zero liquidity against USDC's $76B. The switching costs are prohibitive on both sides.
+<img width="1477" height="1177" alt="9B_risk_matrix" src="https://github.com/user-attachments/assets/104a449e-0c24-464b-be35-b65d0ea6d8f9" />
 
-4. *Diversification reduces concentration:* As Binance, OKX, CPN institutions, and future bank partners grow their share of USDC distribution, Coinbase's relative bargaining power declines. The share of Coinbase in reserve income has already fallen from 55% (2024) to 50% (Q3 2025).
 
-### 9.3 Regulatory Risk
-
-**The Risk:** Despite the GENIUS Act, regulatory execution risk remains. Timelines for rulemaking, OCC charter processing, and international regulatory harmonisation are uncertain. Additionally, future administrations could tighten regulations on stablecoins.
-
-**The Mitigant:** The political economy strongly favours continued stablecoin growth. Stablecoins create demand for U.S. Treasuries (currently top-20 holder and growing), reinforce dollar dominance globally, and generate domestic economic activity. The GENIUS Act passed with bipartisan support. Regulatory reversal would require the U.S. government to actively undermine its own Treasury funding source — politically implausible.
-
-### 9.4 Competitive Risk
-
-**The Risk:** New entrants — Tether's USAT, bank-issued stablecoins, Stripe/Tempo, or an unforeseen BigTech stablecoin — could erode USDC's market share and pricing power.
-
-**The Mitigant:** The stablecoin market is expanding rapidly enough to accommodate multiple winners. Total supply is growing from $260B to a potential $670B by 2027E (and $4T by 2035E). USDC doesn't need to maintain 29% share — even losing 5-10 points of share (to, say, 20%) on a dramatically larger base still produces massive absolute supply growth. The real risk is not market share erosion in an expanding market, but market *contraction* — which would require a sustained crypto bear market AND stalled payments adoption, a low-probability combination.
-
-### 9.5 Operational and Reputational Risks
-
-**Reserve Management:** USDC's reserves are held in U.S. Treasuries and cash at regulated custodians, managed through BlackRock's Circle Reserve Fund. The 2023 SVB event (where Circle had $3.3B in deposits at SVB when it failed) demonstrated both the risk and the resilience: Circle quickly moved assets and restored the peg within 48 hours. The risk of a Treasury default is existential for the global financial system, not specific to Circle — and is therefore non-diversifiable.
-
-**Operational Execution:** Arc blockchain is in testnet with planned commercial launch in 2026. Execution risk is real — a buggy launch, security breach, or failure to attract institutional adoption could undermine the "platform vs. issuer" narrative that justifies a premium valuation. I give low probability to this risk given the calibre of testnet participants (HSBC, Goldman Sachs, Visa, etc.).
-
-**Key Person Risk:** Jeremy Allaire is the visionary behind Circle's positioning at the intersection of crypto, payments, and regulation. His departure would be a meaningful negative signal, though the company's institutional relationships and regulatory licences are not person-dependent.
-
-> **Suggested Exhibits for Section 9:**
-> - **Exhibit 9A:** Rate Cut Impact Waterfall — showing base EBITDA minus rate cut impact plus supply growth offset plus other revenue growth = net EBITDA under bear case. *Generate as a custom waterfall.*
-> - **Exhibit 9B:** Risk Matrix — 2x2 matrix plotting probability (x) vs. impact (y) for each of the five risks, with monitoring metrics noted. *Generate as a custom chart.*
-
----
-
-## Disclaimer and Sources
-
-This investment thesis is based on publicly available information, Bernstein research reports (October 14, 2025 Circle Primer; November 13, 2025 Q3 Quick Take), the Bernstein financial model (BERN_CRCL.xlsx), Circle's SEC filings, and market data as of February 2026. All financial projections are estimates and subject to uncertainty. This document is for informational purposes only and does not constitute investment advice.
+This document is for informational purposes only and does not constitute investment advice.
 
 **Primary Sources Cited:**
-- Bernstein/Société Générale: "Circle Primer: The regulated stablecoin thesis...looking beyond rate cuts" (October 14, 2025) — Gautam Chhugani et al.
-- Bernstein/Société Générale: "Circle Q3: Narrative battleground but fast approaching buy zone" (November 13, 2025) — Gautam Chhugani et al.
-- Bernstein Financial Model (BERN_CRCL.xlsx) — Confidential
+- Bernstein: "Circle Primer: The regulated stablecoin thesis...looking beyond rate cuts"
 - Circle Internet Group SEC Filings (S-1, 10-Q, 8-K) — [SEC EDGAR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRCL)
 - GENIUS Act legislative text — [Congress.gov](https://www.congress.gov)
 - Stablecoin supply data — [CoinGecko](https://www.coingecko.com), [DefiLlama](https://defillama.com/stablecoins)
