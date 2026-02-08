@@ -81,6 +81,10 @@ $$\Delta \text{Revenue per 25B supply} \approx 25\text{B} \times 2.9\% = 725\tex
 USDC supply is currently at $76B, already above the $74B year-end 2025E target. The supply tailwind is materially larger than the rate headwind, and the market is overweighting the latter.
 
 
+
+<img width="2077" height="1027" alt="1A_valuation_bridge" src="https://github.com/user-attachments/assets/4c3ec0c0-dd63-46b0-b4d3-19217130090e" />
+
+
 ## 1.3 What Would Change My Mind (Top 3 Disconfirming Signals)
 
 **Signal 1: USDC Market Share Inflection Below 25%**
@@ -149,6 +153,8 @@ The mechanics of USDC are deceptively simple, and understanding them is essentia
 
 **Redemption:** The reverse process. A customer sends USDC back to Circle, Circle burns the tokens, and transfers the equivalent U.S. dollars to the customer's bank account. Standard redemptions clear within 1-2 business days; instant redemptions (for a fee) settle in minutes.
 
+<img width="2380" height="880" alt="2A_issuance_flow" src="https://github.com/user-attachments/assets/10e9639c-f975-40c6-9636-14f0d22b9d5a" />
+
 **The Float Economics:** While USDC is outstanding, Circle earns the yield on the underlying reserves. At $76B supply and a ~4.15% average reserve rate (Q3 2025), that's approximately $3.2B annualised gross reserve income. This is the core economic engine — Circle is essentially a money market fund that issues tokens instead of shares, with the critical difference that USDC is *spendable* as a currency across 28 blockchains.
 
 **Reserve Composition (Q3 2025):** Approximately 80% in short-duration U.S. Treasuries via the Circle Reserve Fund (USDXX), and 20% in cash held at major banking institutions. This is intentionally conservative — USDC's reserves are 100% in cash and short-term Treasuries, compared to Tether's more diversified (and less transparent) reserve portfolio that historically included commercial paper, secured loans, precious metals, and Bitcoin.
@@ -157,6 +163,8 @@ The mechanics of USDC are deceptively simple, and understanding them is essentia
 > - **Exhibit 2A:** USDC Issuance/Redemption Flow Diagram — a simple visual showing: Customer deposits USD → Circle holds in Treasuries/Cash → Mints USDC on blockchain → Customer uses USDC → Redemption reverses the flow. *Generate this as a clean diagram.*
 > - **Exhibit 2B:** Circle's Revenue Model — screenshot from Bernstein Primer Exhibit 20 (the revenue waterfall showing Revenue $1,676M → Distribution Costs $1,017M → RLDC $659M → Opex $374M → EBITDA $285M). *This single exhibit explains the entire P&L mechanics.*
 > - **Exhibit 2C:** Partner/Network Map — screenshot from Bernstein Q3 Report Exhibit 2 (Arc blockchain participants showing banks, payments firms, digital asset firms, capital markets participants). *This visual demonstrates the breadth of institutional buy-in.*
+
+![Screenshot 2026-02-08 at 8 53 09 AM](https://github.com/user-attachments/assets/77e6452b-2165-4a4d-94a7-36e815efef1a)
 
 ### 2.3 Distribution: The Underappreciated Competitive Weapon
 
@@ -176,9 +184,13 @@ USDC is the dominant stablecoin in decentralised finance, holding >50% share in 
 
 A quietly important trend in Q3 2025 was the rise of USDC held directly on Circle's own platform — from 10% in Q2 to 14% in Q3. This includes ecosystem partners building on Circle's technology stack (wallets, CPN, etc.). These balances incur *zero distribution costs* — Circle retains 100% of reserve income, making this the highest-margin channel. If on-platform USDC grows from 14% to 20% by 2027, it alone could add hundreds of basis points to gross margin.
 
+
 **Channel 4: Payments and Financial Services (<1% today, the growth story)**
 
 CPN's launch 5 months ago, with $3.4B annualised GPV, 29 institutions onboarded, and operations in 8 countries, is the first tangible evidence that USDC can serve as a settlement currency for real-world cross-border payments — not just crypto trading. The pipeline of 500+ institutional prospects suggests this channel will scale meaningfully over the next 2-3 years, particularly as Arc blockchain enables programmable payments with sub-second finality.
+
+
+![Screenshot 2026-02-08 at 8 52 04 AM](https://github.com/user-attachments/assets/7b8c413a-c881-42fe-8504-856cfa8ef727)
 
 *Sources: Circle Q3 2025 Earnings; Bernstein Primer (Oct 2025), Exhibits 8-10; Bernstein Q3 Report.*
 
@@ -194,9 +206,8 @@ Circle's moat is not any single factor — it is the *combination* of four inter
 
 **Technology Platform:** Circle is not just issuing a token; it is building the infrastructure stack (Arc, CPN, CCTP, programmable wallets) that makes USDC useful beyond a simple digital dollar. This platform approach creates switching costs: once an institution builds payment flows on CPN or deploys applications on Arc, migrating to a competitor's stablecoin means rebuilding the integration.
 
-> **Suggested Exhibits for Section 2.4:**
-> - **Exhibit 2D:** Competitive Advantage Flywheel Diagram — circular diagram showing: Regulatory Trust → Institutional Adoption → Liquidity Depth → Partner Integrations → Network Effects → More Regulatory Trust. *Generate as a custom diagram.*
-> - **Exhibit 2E:** USDC Chain Coverage Map — screenshot or table from Bernstein Primer showing USDC live on 28 blockchains vs. competitors (USDT: 12, PYUSD: 13). *Visual demonstrates distribution breadth.*
+<img width="1480" height="1480" alt="2D_flywheel" src="https://github.com/user-attachments/assets/1987b9ae-4966-439c-b633-430067c40ee7" />
+
 
 ---
 
@@ -211,6 +222,9 @@ Why does this matter? Consider the plumbing of the current financial system. Whe
 Now consider the same transfer using stablecoins: I convert INR to USDC on an exchange → send USDC directly to the recipient's wallet on the Solana or Ethereum blockchain → recipient converts to USD on their exchange or keeps the USDC. Total time: 1-30 seconds. Total cost: $0.01-0.10. No intermediaries, no reconciliation, no settlement risk. The ledger *is* the settlement.
 
 This is not theoretical. USDC transaction volumes reached $3T in just H1 2025, roughly 10% of SWIFT's total annual volume, for a token that is barely 7 years old. Monthly active stablecoin addresses have increased to 51 million (from 3 million in 2020). The combination of scalable blockchain infrastructure (Ethereum Layer 2s now settle transactions in 1-2 seconds at 1-2 cents per transaction) and regulatory clarity (the GENIUS Act) has sparked a fundamental re-evaluation of stablecoins' role in the global financial system.
+
+https://miro.medium.com/v2/resize:fit:4800/format:webp/1*bSqoL6LmioCYUjIygUqJOw.jpeg<img width="2694" height="1852" alt="image" src="https://github.com/user-attachments/assets/a85beb52-1ca3-47c0-852b-5bb4b50bfeb0" />
+
 
 *Sources: SWIFT; Visa Onchain Analytics; CoinGecko; Bernstein Primer (Oct 2025), pp. 1-2.*
 
