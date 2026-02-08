@@ -159,10 +159,6 @@ The mechanics of USDC are deceptively simple, and understanding them is essentia
 
 **Reserve Composition (Q3 2025):** Approximately 80% in short-duration U.S. Treasuries via the Circle Reserve Fund (USDXX), and 20% in cash held at major banking institutions. This is intentionally conservative — USDC's reserves are 100% in cash and short-term Treasuries, compared to Tether's more diversified (and less transparent) reserve portfolio that historically included commercial paper, secured loans, precious metals, and Bitcoin.
 
-> **Suggested Exhibits for Section 2:**
-> - **Exhibit 2A:** USDC Issuance/Redemption Flow Diagram — a simple visual showing: Customer deposits USD → Circle holds in Treasuries/Cash → Mints USDC on blockchain → Customer uses USDC → Redemption reverses the flow. *Generate this as a clean diagram.*
-> - **Exhibit 2B:** Circle's Revenue Model — screenshot from Bernstein Primer Exhibit 20 (the revenue waterfall showing Revenue $1,676M → Distribution Costs $1,017M → RLDC $659M → Opex $374M → EBITDA $285M). *This single exhibit explains the entire P&L mechanics.*
-> - **Exhibit 2C:** Partner/Network Map — screenshot from Bernstein Q3 Report Exhibit 2 (Arc blockchain participants showing banks, payments firms, digital asset firms, capital markets participants). *This visual demonstrates the breadth of institutional buy-in.*
 
 ![Screenshot 2026-02-08 at 8 53 09 AM](https://github.com/user-attachments/assets/77e6452b-2165-4a4d-94a7-36e815efef1a)
 
@@ -217,13 +213,15 @@ Circle's moat is not any single factor — it is the *combination* of four inter
 
 A stablecoin is, at its core, a tokenised representation of fiat currency living on a public blockchain. The concept is simple: an issuer takes custody of real-world dollars (or euros, or pounds), holds them in reserve, and issues digital tokens pegged 1:1 to that currency. The holder of the token can transact with it on the blockchain — send it, receive it, use it as collateral, earn yield on it — and can always redeem it back to fiat.
 
+<img width="2144" height="1140" alt="image" src="https://github.com/user-attachments/assets/1e264ba7-834a-4c63-a2d7-9a91baecf9e7" />
+
 Why does this matter? Consider the plumbing of the current financial system. When I send $1,000 from India to the United States via a bank wire, that transaction traverses a chain of intermediaries: my bank → correspondent bank → SWIFT messaging → clearing house → receiving correspondent bank → recipient's bank. Each intermediary takes a cut, introduces latency, and operates on different ledgers that need reconciliation. Settlement takes 1-5 business days. The total cost for a typical cross-border wire is $25-50 per transaction, or 5-10% for smaller remittances.
 
 Now consider the same transfer using stablecoins: I convert INR to USDC on an exchange → send USDC directly to the recipient's wallet on the Solana or Ethereum blockchain → recipient converts to USD on their exchange or keeps the USDC. Total time: 1-30 seconds. Total cost: $0.01-0.10. No intermediaries, no reconciliation, no settlement risk. The ledger *is* the settlement.
 
 This is not theoretical. USDC transaction volumes reached $3T in just H1 2025, roughly 10% of SWIFT's total annual volume, for a token that is barely 7 years old. Monthly active stablecoin addresses have increased to 51 million (from 3 million in 2020). The combination of scalable blockchain infrastructure (Ethereum Layer 2s now settle transactions in 1-2 seconds at 1-2 cents per transaction) and regulatory clarity (the GENIUS Act) has sparked a fundamental re-evaluation of stablecoins' role in the global financial system.
 
-https://miro.medium.com/v2/resize:fit:4800/format:webp/1*bSqoL6LmioCYUjIygUqJOw.jpeg<img width="2694" height="1852" alt="image" src="https://github.com/user-attachments/assets/a85beb52-1ca3-47c0-852b-5bb4b50bfeb0" />
+<img width="2694" height="1852" alt="image" src="https://github.com/user-attachments/assets/a85beb52-1ca3-47c0-852b-5bb4b50bfeb0" />
 
 
 *Sources: SWIFT; Visa Onchain Analytics; CoinGecko; Bernstein Primer (Oct 2025), pp. 1-2.*
@@ -251,7 +249,6 @@ Stablecoin usage today remains predominantly crypto-native, but the composition 
 
 For USDC specifically, the mix is even more crypto-concentrated: ~78% in crypto capital markets (44% on exchanges, 34% in DeFi), ~16% in wallet-to-wallet, and the remainder on Circle's platform. This crypto-heavy concentration is both the near-term risk (crypto bear markets reduce demand) and the long-term opportunity (the 78% to ~54% shift toward payments represents massive incremental TAM).
 
-*Sources: Bernstein Primer (Oct 2025), USDC usage analysis; DefiLlama; Company filings.*
 
 ### 3.3 Market Size and 5-10 Year Adoption Drivers
 
@@ -267,7 +264,8 @@ Looking forward, I model the stablecoin market evolving in three phases:
 
 The TAM arithmetic is striking: at $4T of total stablecoin supply with a ~30% USDC share, that's $1.2T of USDC in circulation. Even at a 2% reserve yield and after distribution costs, the annual float income on that base exceeds $10B. Layer on transaction fees from CPN, Arc, and CCTP, and the revenue opportunity is enormous.
 
-*Sources: Bernstein Primer (Oct 2025), Exhibit 14-15; CoinGecko historical data; Visa Onchain Analytics.*
+![Screenshot 2026-02-08 at 4 44 43 PM](https://github.com/user-attachments/assets/83301bcd-5107-4ee1-b491-6def79a02603)
+
 
 ### 3.4 Why "Stablecoin Rails" Matter vs. Cards/ACH/Wires
 
@@ -286,11 +284,9 @@ The cost advantage alone is compelling. For a $10,000 cross-border B2B payment, 
 
 But cost is only part of the story. The *programmability* of stablecoins enables entirely new financial products: automated escrow, streaming payments (pay by the second rather than by the month), conditional transfers (release funds when goods clear customs), and composable financial applications that stack on top of each other. Traditional payment rails cannot do this because they were designed as message-passing systems (SWIFT is literally a messaging protocol from the 1970s), not as programmable money.
 
-> **Suggested Exhibits for Section 3:**
-> - **Exhibit 3A:** Stablecoin Supply Growth Chart — screenshot from Bernstein Primer Exhibit 1 (the hockey stick from $5B in Q1 2020 to $260B+ today). *The visual impact of 100% CAGR over five years is striking.*
-> - **Exhibit 3B:** Usage Split Diagram — pie chart showing 56% crypto capital markets, 39% wallet transfers, 5% issuer platforms, <1% payments. *Generate with arrows showing directional shift toward payments.*
-> - **Exhibit 3C:** Cost/Speed Comparison Table — the table above, formatted as a clean visual. *Generate as a chart with colour coding: green for stablecoins, yellow for cards, red for wires.*
-> - **Exhibit 3D:** 10-Year Stablecoin TAM Projection — screenshot from Bernstein Primer Exhibit 14 (stablecoin supply reaching $4T by 2035E with category breakdowns). *This is the most important long-term chart in the thesis.*
+
+![Screenshot 2026-02-08 at 9 19 04 AM](https://github.com/user-attachments/assets/0fd43edb-9fee-4974-87b3-908e626e6344)
+
 
 ---
 
@@ -298,68 +294,56 @@ But cost is only part of the story. The *programmability* of stablecoins enables
 
 ### 4.1 Regulatory Backdrop and Timelines
 
-The regulatory landscape for stablecoins has shifted from headwind to tailwind, and the velocity of change is remarkable. Here is the current state across key jurisdictions:
+Stablecoin regulation has flipped from headwind to tailwind, with rapid policy convergence across major markets.
 
-**United States — GENIUS Act (Signed July 2025)**
+**United States — GENIUS Act (signed July 2025)**  
+The GENIUS Act (Guiding and Establishing National Innovation for U.S. Stablecoins) is the first major U.S. digital-assets law and the most consequential for Circle. Key provisions:
 
-The GENIUS Act (Guiding and Establishing National Innovation for U.S. Stablecoins) is the first major piece of digital assets legislation in the U.S. and arguably the most consequential regulatory development for Circle. Key provisions:
+- **Issuer types:** (i) bank subsidiaries, (ii) **OCC**-approved federally qualified non-bank issuers, (iii) state-qualified issuers.  
+- **100% reserves:** U.S. Treasuries, repos, or demand deposits; **independent attestation** required.  
+- **Foreign issuer compliance:** offshore stablecoins must prove technical capability to meet U.S. requirements, creating a compliance barrier for **USDT**.  
+- **Non-financial company restriction:** public companies not primarily in financial services can’t issue stablecoins without extraordinary approval—pushing Amazon/Meta-type players toward partnerships.  
+- **Classification:** payment stablecoins treated as **digital cash** (not deposits/securities/commodities); eligible as cash-equivalent margin for clearing.  
+- **AML/KYC:** **Bank Secrecy Act** compliance, including sanctions blocking authority.
 
-- **Three categories of issuers:** (i) Subsidiaries of insured depository institutions (banks); (ii) Federally qualified non-bank issuers (approved by OCC); (iii) State-qualified issuers.
-- **100% reserve requirement:** Backed by U.S. Treasuries, repos, or demand deposits. Independent attestation required.
-- **Foreign issuer compliance:** Offshore stablecoins must demonstrate technological capability to comply with U.S. requirements. This effectively creates a compliance barrier for Tether's existing USDT.
-- **Non-financial company prohibition:** Public companies not predominantly in financial services cannot issue stablecoins without extraordinary approval. This is the provision that forces Amazon, Meta, and others to partner with existing issuers.
-- **Payment stablecoin classification:** Treated as digital cash — not a deposit, not a security, not a commodity. Eligible as cash-equivalent margin for capital market clearing.
-- **AML/KYC requirements:** Banking Secrecy Act compliance, including authority to block sanctioned entities.
+Strategically, the U.S. is pulling stablecoins **onshore**: >99% of fiat stablecoins are USD-backed, and issuers are already among the top U.S. Treasury holders—supporting dollar dominance and incremental Treasury demand.
 
-The strategic intent is explicit: bring stablecoin innovation *onshore* to the U.S. The GENIUS Act recognises that stablecoins have become systemically important for the U.S. — more than 99% of fiat stablecoins are backed by the U.S. dollar, and stablecoin issuers are already among the top 20 holders of U.S. Treasuries. By promoting dollar-backed stablecoins, the Act reinforces dollar dominance in the digital economy and creates additional demand for Treasuries.
+**European Union — MiCA (effective Dec 2024)**  
+MiCA creates an EU licensing regime. Circle secured a French **EMI** licence and launched **EURC**, positioning it among the few issuers with approval in both the U.S. and EU.
 
-**European Union — MiCA (Markets in Crypto-Assets)**
+**Other jurisdictions:** UK (FSM Bill; FCA engagement), Singapore (MAS Payment Services Act; Circle MPI licence), Japan (revised Payment Services Act), UAE/Dubai (VARA).
 
-MiCA came into full effect in December 2024 and establishes a licensing framework for stablecoin issuers in the EU. Circle has been proactive — it obtained an Electronic Money Institution (EMI) licence in France and launched EURC (euro stablecoin) within the MiCA framework. While EURC is small today, it positions Circle as one of the few issuers with regulatory approval in both the U.S. and EU.
-
-**Other Key Jurisdictions:**
-- **UK:** Financial Services and Markets Bill includes stablecoin provisions; Circle is engaged with the FCA.
-- **Singapore:** MAS Payment Services Act provides a licensing pathway; Circle holds a Major Payment Institution licence.
-- **Japan:** Revised Payment Services Act allows stablecoin issuance by registered entities.
-- **UAE/Dubai:** VARA (Virtual Assets Regulatory Authority) framework; Circle has relationships in the region.
-
-*Sources: GENIUS Act legislative text; MiCA regulation; Bernstein Primer (Oct 2025), pp. 4-5; SEC filings.*
+*Sources: GENIUS Act legislative text; MiCA regulation; Bernstein Primer (Oct 2025), pp. 4–5; SEC filings.*
 
 ### 4.2 Implications for Issuers: Onshore vs. Offshore
 
-The GENIUS Act creates a sharp dividing line between regulated, onshore stablecoin issuers and offshore, less-regulated operators. This bifurcation has profound competitive implications:
+GENIUS creates a clear split:
 
-**Onshore (Circle, Paxos):** Full regulatory compliance, transparent reserves, institutional trust. The tradeoff is cost: Circle bears significant compliance expenses ($263M in compensation alone in 2024, much of it compliance-related) and shares economics generously with distribution partners. The benefit is access to the U.S. market, institutional clients, and future bank/BigTech partnerships.
+- **Onshore (Circle, Paxos):** compliant, transparent, institution-trusted; higher cost base (e.g., **$263M** 2024 compensation, largely compliance) and heavy partner revenue-share—offset by access to U.S. institutions and future bank/BigTech partnerships.  
+- **Offshore (Tether):** **USDT $179B** (69% share) dominates globally from El Salvador; launched **USAT** (GENIUS-compliant, co-issued with Anchorage) but starts at zero and must rebuild distribution/liquidity/integration over years. USDT may face increasing U.S. access constraints, shifting share toward compliant alternatives.
 
-**Offshore (Tether):** Tether's USDT ($179B supply, 69% market share) dominates globally but operates from El Salvador with limited regulatory oversight. Tether recently announced USAT, a GENIUS Act-compliant stablecoin co-issued with Anchorage for the U.S. market. However, USAT starts from zero — it needs to build distribution, liquidity, and exchange integration from scratch, a multi-year effort. Tether's existing USDT may face access restrictions in the U.S. market over time, creating a potential share shift toward compliant alternatives like USDC.
+Bottom line: the market bifurcates into a regulated, high-trust onshore segment (where Circle leads) and a commoditised offshore segment (where Tether remains strong). Circle’s win condition is the institutional/payments-led onshore growth lane—not “beating” Tether everywhere.
 
-The key insight: post-GENIUS Act, the stablecoin market bifurcates into (a) a high-compliance, high-trust onshore segment where Circle has a commanding lead, and (b) a more commoditised offshore segment where Tether continues to dominate emerging markets. Circle does not need to "beat" Tether globally — it needs to win the regulated, institutional, payments-oriented segment, which is where the growth is.
+### 4.3 Implications for Banks, PSPs, and BigTech
 
-### 4.3 Implications for Banks/PSPs/BigTech Adoption
+GENIUS shapes adoption incentives:
 
-The GENIUS Act creates a clear decision tree for potential stablecoin adopters:
-
-**Banks:** Can issue their own stablecoins under the Act. However, two structural barriers limit the threat to Circle: (1) Banks prefer permissioned environments — their stablecoins would likely be restricted to qualified institutional investors initially, lacking USDC's permissionless liquidity across 28 blockchains and DeFi protocols. (2) Stablecoins are fully reserved, making them poor substitutes for fractional-reserve checking deposits. Banks are more likely to use stablecoins for specific use cases (cross-border treasury management, trade finance) rather than as a broad consumer product.
-
-**Payment Service Providers (Visa, Mastercard, Stripe):** These companies are adopting stablecoins as a settlement layer within their existing networks, not launching competing stablecoins. Visa has partnered with Circle to enable USDC settlement. Stripe acquired Bridge (cross-border stablecoin payments infra) and Privy (digital wallets), and is building the Tempo blockchain — but even Stripe's approach is "build with stablecoins" rather than "build a stablecoin." Circle's infrastructure (CCTP, CPN, Arc) makes it the partner of choice for PSPs wanting stablecoin capability without the regulatory burden of issuance.
-
-**BigTech (Amazon, Meta, Walmart):** The GENIUS Act's prohibition on non-financial company issuance is unambiguous: these companies cannot issue stablecoins without clearing an extremely high regulatory bar. If they want to offer stablecoin-based payments (and they do — reports of Amazon and Walmart exploring stablecoins surfaced in 2025), they must partner with a regulated issuer. Circle's existing relationships with Shopify (via Coinbase/Stripe USDC integration) and its brand reputation position it as the natural partner.
+- **Banks:** can issue stablecoins, but (1) will likely remain **permissioned** (limiting DeFi/28-chain liquidity), and (2) fully reserved stablecoins are poor substitutes for **fractional-reserve** deposits—so usage skews to specific corridors (treasury, trade finance) vs broad consumer rails.  
+- **Payment Service Providers (Visa/Mastercard/Stripe):** mostly adopt stablecoins as a settlement layer rather than issue. Visa supports USDC settlement; Stripe acquired **Bridge** and **Privy** and is building **Tempo**—“build with stablecoins,” not “be the stablecoin.” Circle’s stack (**CCTP/CPN/Arc**) makes it the natural issuer/infra partner.  
+- **BigTech (Amazon/Meta/Walmart):** non-financial issuance is heavily restricted; if they want stablecoin payments (reports surfaced in 2025), they likely must partner with a regulated issuer—where Circle’s brand + distribution (e.g., Shopify via Coinbase/Stripe) positions it well.
 
 ### 4.4 Second-Order Effects
 
-**Treasury Demand:** If stablecoin supply reaches $4T by 2035E (Bernstein estimate), and issuers are required to hold 100% reserves in U.S. Treasuries, that represents an additional $3-4T of Treasury demand. For context, Japan — the largest foreign holder of U.S. Treasuries — holds ~$1.1T. Stablecoins could become the single largest class of Treasury buyers outside the Fed. This dynamic aligns U.S. government interests directly with stablecoin growth, making regulatory reversal politically untenable.
+- **Treasury demand:** if stablecoin supply reaches **$4T by 2035E** (Bernstein) under 100% Treasury-backed rules, that implies **$3–4T** incremental Treasury demand (vs Japan’s ~$1.1T holdings), aligning U.S. interests with stablecoin growth and reducing the odds of regulatory reversal.  
+- **Compliance as moat:** GENIUS adds meaningful fixed costs (BSA/AML/KYC, attestations, OCC oversight). Circle has already built the infrastructure; new entrants likely need **tens of millions** before minting a token.
 
-**Compliance Costs as Barrier to Entry:** The GENIUS Act's compliance requirements (BSA/AML/KYC, reserve auditing, attestation, OCC oversight) create meaningful fixed costs. Circle has already built this infrastructure. A new entrant must invest tens of millions upfront before minting a single token — a significant deterrent, especially when the incumbent (Circle) has a 7-year head start and established institutional relationships.
 
-> **Suggested Exhibits for Section 4:**
-> - **Exhibit 4A:** Regulation Timeline — horizontal timeline showing: GENIUS Act passage (Jul 2025) → MiCA full effect (Dec 2024) → OCC charter application (2025-26) → GENIUS Act rulemaking (2026-27). *Generate as a clean timeline chart.*
-> - **Exhibit 4B:** Issuer Classification Matrix — table showing Circle, Tether, Paxos, banks, BigTech along rows; columns for regulatory status, reserve composition, distribution, market position. *Generate as a comparison table.*
-> - **Exhibit 4C:** Stablecoin Issuers as Top Treasury Holders — screenshot from Bernstein Primer Exhibit 5 (bar chart showing stablecoin issuers ranked #18 among U.S. Treasury holders). *This visual makes the "politically untenable to regulate away" argument compellingly.*
-> - **Exhibit 4D:** BigTech/Bank Adoption Decision Tree — flowchart: "Do you want to offer stablecoin payments?" → Yes → "Are you a financial company?" → No → "You must partner with a regulated issuer" → Circle. *Generate as a decision tree diagram.*
-
+<img width="2380" height="1030" alt="4B_issuer_matrix" src="https://github.com/user-attachments/assets/d63e3eaf-f523-4c7f-bc77-7b0d845c75d6"/>
 ---
 
 ## 5. Competitive Landscape
+
+<img width="1684" height="1066" alt="image" src="https://github.com/user-attachments/assets/8227276e-a852-4114-a56e-4ac562a025bf" />
 
 ### 5.1 Direct Stablecoin Competitors
 
@@ -383,6 +367,9 @@ Paxos is Circle's most credible domestic competitor, operating with a similar co
 Ripple, traditionally focused on its native XRP token for cross-border payments, entered the stablecoin market late. Its recent acquisition of Hidden Road (institutional crypto prime brokerage) provides a distribution channel, but RLUSD is sub-scale and XRP's volatility as a payment medium has historically been a liability rather than an asset.
 
 *Sources: CoinGecko; Company disclosures; Bernstein Primer (Oct 2025), pp. 8-10.*
+
+
+![Screenshot 2026-02-08 at 4 46 38 PM](https://github.com/user-attachments/assets/a224166a-58f4-4d4e-af48-bfef6c47a258)
 
 ### 5.2 Indirect Competitors
 
@@ -465,6 +452,7 @@ The key insight is that supply growth is a *multiplicative* driver while rate ch
 The margin on other revenue is remarkable: 99% gross margin in Q3 2025 (only $0.4M in associated costs on $29M revenue). This is essentially pure software fee revenue — zero variable cost. As this line scales, it provides both EBITDA growth and a natural hedge against rate cuts.
 
 *Sources: Bernstein Financial Model; Company Q3 2025 filings; Bernstein Primer (Oct 2025), pp. 17-19.*
+
 
 ### 6.2 Distribution Costs: Who Takes What
 
